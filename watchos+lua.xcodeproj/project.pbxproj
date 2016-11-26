@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36536471DE968E40063EB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36536461DE968E40063EB2D /* main.m */; };
+		B365364A1DE968E40063EB2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36536491DE968E40063EB2D /* AppDelegate.m */; };
+		B365364D1DE968E40063EB2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B365364C1DE968E40063EB2D /* ViewController.m */; };
+		B36536501DE968E40063EB2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B365364E1DE968E40063EB2D /* Main.storyboard */; };
+		B36536521DE968E40063EB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36536511DE968E40063EB2D /* Assets.xcassets */; };
+		B36536551DE968E40063EB2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36536531DE968E40063EB2D /* LaunchScreen.storyboard */; };
+		B365365A1DE968E40063EB2D /* watchos+lua WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B36536591DE968E40063EB2D /* watchos+lua WatchKit App.app */; };
+		B36536601DE968E40063EB2D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B365365E1DE968E40063EB2D /* Interface.storyboard */; };
+		B36536621DE968E40063EB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36536611DE968E40063EB2D /* Assets.xcassets */; };
+		B36536691DE968E50063EB2D /* watchos+lua WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B36536681DE968E50063EB2D /* watchos+lua WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B365366F1DE968E50063EB2D /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B365366E1DE968E50063EB2D /* InterfaceController.m */; };
+		B36536721DE968E50063EB2D /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36536711DE968E50063EB2D /* ExtensionDelegate.m */; };
+		B36536741DE968E50063EB2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36536731DE968E50063EB2D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B365365B1DE968E40063EB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B365363A1DE968E40063EB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36536581DE968E40063EB2D;
+			remoteInfo = "watchos+lua WatchKit App";
+		};
+		B365366A1DE968E50063EB2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B365363A1DE968E40063EB2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36536671DE968E50063EB2D;
+			remoteInfo = "watchos+lua WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B365367B1DE968E50063EB2D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B36536691DE968E50063EB2D /* watchos+lua WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B365367F1DE968E50063EB2D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B365365A1DE968E40063EB2D /* watchos+lua WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B36536421DE968E40063EB2D /* watchos+lua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchos+lua.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36536461DE968E40063EB2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36536481DE968E40063EB2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B36536491DE968E40063EB2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B365364B1DE968E40063EB2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B365364C1DE968E40063EB2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B365364F1DE968E40063EB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36536511DE968E40063EB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B36536541DE968E40063EB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B36536561DE968E40063EB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36536591DE968E40063EB2D /* watchos+lua WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchos+lua WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B365365F1DE968E40063EB2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B36536611DE968E40063EB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B36536631DE968E40063EB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36536681DE968E50063EB2D /* watchos+lua WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchos+lua WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B365366D1DE968E50063EB2D /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B365366E1DE968E50063EB2D /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B36536701DE968E50063EB2D /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		B36536711DE968E50063EB2D /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		B36536731DE968E50063EB2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B36536751DE968E50063EB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B365363F1DE968E40063EB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36536651DE968E50063EB2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36536391DE968E40063EB2D = {
+			isa = PBXGroup;
+			children = (
+				B36536441DE968E40063EB2D /* watchos+lua */,
+				B365365D1DE968E40063EB2D /* watchos+lua WatchKit App */,
+				B365366C1DE968E50063EB2D /* watchos+lua WatchKit Extension */,
+				B36536431DE968E40063EB2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36536431DE968E40063EB2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36536421DE968E40063EB2D /* watchos+lua.app */,
+				B36536591DE968E40063EB2D /* watchos+lua WatchKit App.app */,
+				B36536681DE968E50063EB2D /* watchos+lua WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36536441DE968E40063EB2D /* watchos+lua */ = {
+			isa = PBXGroup;
+			children = (
+				B36536481DE968E40063EB2D /* AppDelegate.h */,
+				B36536491DE968E40063EB2D /* AppDelegate.m */,
+				B365364B1DE968E40063EB2D /* ViewController.h */,
+				B365364C1DE968E40063EB2D /* ViewController.m */,
+				B365364E1DE968E40063EB2D /* Main.storyboard */,
+				B36536511DE968E40063EB2D /* Assets.xcassets */,
+				B36536531DE968E40063EB2D /* LaunchScreen.storyboard */,
+				B36536561DE968E40063EB2D /* Info.plist */,
+				B36536451DE968E40063EB2D /* Supporting Files */,
+			);
+			path = "watchos+lua";
+			sourceTree = "<group>";
+		};
+		B36536451DE968E40063EB2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36536461DE968E40063EB2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B365365D1DE968E40063EB2D /* watchos+lua WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B365365E1DE968E40063EB2D /* Interface.storyboard */,
+				B36536611DE968E40063EB2D /* Assets.xcassets */,
+				B36536631DE968E40063EB2D /* Info.plist */,
+			);
+			path = "watchos+lua WatchKit App";
+			sourceTree = "<group>";
+		};
+		B365366C1DE968E50063EB2D /* watchos+lua WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B365366D1DE968E50063EB2D /* InterfaceController.h */,
+				B365366E1DE968E50063EB2D /* InterfaceController.m */,
+				B36536701DE968E50063EB2D /* ExtensionDelegate.h */,
+				B36536711DE968E50063EB2D /* ExtensionDelegate.m */,
+				B36536731DE968E50063EB2D /* Assets.xcassets */,
+				B36536751DE968E50063EB2D /* Info.plist */,
+			);
+			path = "watchos+lua WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36536411DE968E40063EB2D /* watchos+lua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36536801DE968E50063EB2D /* Build configuration list for PBXNativeTarget "watchos+lua" */;
+			buildPhases = (
+				B365363E1DE968E40063EB2D /* Sources */,
+				B365363F1DE968E40063EB2D /* Frameworks */,
+				B36536401DE968E40063EB2D /* Resources */,
+				B365367F1DE968E50063EB2D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B365365C1DE968E40063EB2D /* PBXTargetDependency */,
+			);
+			name = "watchos+lua";
+			productName = "watchos+lua";
+			productReference = B36536421DE968E40063EB2D /* watchos+lua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36536581DE968E40063EB2D /* watchos+lua WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B365367C1DE968E50063EB2D /* Build configuration list for PBXNativeTarget "watchos+lua WatchKit App" */;
+			buildPhases = (
+				B36536571DE968E40063EB2D /* Resources */,
+				B365367B1DE968E50063EB2D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B365366B1DE968E50063EB2D /* PBXTargetDependency */,
+			);
+			name = "watchos+lua WatchKit App";
+			productName = "watchos+lua WatchKit App";
+			productReference = B36536591DE968E40063EB2D /* watchos+lua WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B36536671DE968E50063EB2D /* watchos+lua WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36536781DE968E50063EB2D /* Build configuration list for PBXNativeTarget "watchos+lua WatchKit Extension" */;
+			buildPhases = (
+				B36536641DE968E50063EB2D /* Sources */,
+				B36536651DE968E50063EB2D /* Frameworks */,
+				B36536661DE968E50063EB2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchos+lua WatchKit Extension";
+			productName = "watchos+lua WatchKit Extension";
+			productReference = B36536681DE968E50063EB2D /* watchos+lua WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B365363A1DE968E40063EB2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Scott Harrison2";
+				TargetAttributes = {
+					B36536411DE968E40063EB2D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ERGRD4PXL4;
+						ProvisioningStyle = Automatic;
+					};
+					B36536581DE968E40063EB2D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ERGRD4PXL4;
+						ProvisioningStyle = Automatic;
+					};
+					B36536671DE968E50063EB2D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ERGRD4PXL4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B365363D1DE968E40063EB2D /* Build configuration list for PBXProject "watchos+lua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36536391DE968E40063EB2D;
+			productRefGroup = B36536431DE968E40063EB2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36536411DE968E40063EB2D /* watchos+lua */,
+				B36536581DE968E40063EB2D /* watchos+lua WatchKit App */,
+				B36536671DE968E50063EB2D /* watchos+lua WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36536401DE968E40063EB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36536551DE968E40063EB2D /* LaunchScreen.storyboard in Resources */,
+				B36536521DE968E40063EB2D /* Assets.xcassets in Resources */,
+				B36536501DE968E40063EB2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36536571DE968E40063EB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36536621DE968E40063EB2D /* Assets.xcassets in Resources */,
+				B36536601DE968E40063EB2D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36536661DE968E50063EB2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36536741DE968E50063EB2D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B365363E1DE968E40063EB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B365364D1DE968E40063EB2D /* ViewController.m in Sources */,
+				B365364A1DE968E40063EB2D /* AppDelegate.m in Sources */,
+				B36536471DE968E40063EB2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36536641DE968E50063EB2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36536721DE968E50063EB2D /* ExtensionDelegate.m in Sources */,
+				B365366F1DE968E50063EB2D /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B365365C1DE968E40063EB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36536581DE968E40063EB2D /* watchos+lua WatchKit App */;
+			targetProxy = B365365B1DE968E40063EB2D /* PBXContainerItemProxy */;
+		};
+		B365366B1DE968E50063EB2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36536671DE968E50063EB2D /* watchos+lua WatchKit Extension */;
+			targetProxy = B365366A1DE968E50063EB2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B365364E1DE968E40063EB2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B365364F1DE968E40063EB2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B36536531DE968E40063EB2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36536541DE968E40063EB2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B365365E1DE968E40063EB2D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B365365F1DE968E40063EB2D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36536761DE968E50063EB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B36536771DE968E50063EB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36536791DE968E50063EB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = ERGRD4PXL4;
+				INFOPLIST_FILE = "watchos+lua WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottrules44.watchos-lua.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		B365367A1DE968E50063EB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = ERGRD4PXL4;
+				INFOPLIST_FILE = "watchos+lua WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottrules44.watchos-lua.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		B365367D1DE968E50063EB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ERGRD4PXL4;
+				IBSC_MODULE = watchos_lua_WatchKit_Extension;
+				INFOPLIST_FILE = "watchos+lua WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottrules44.watchos-lua.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		B365367E1DE968E50063EB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ERGRD4PXL4;
+				IBSC_MODULE = watchos_lua_WatchKit_Extension;
+				INFOPLIST_FILE = "watchos+lua WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottrules44.watchos-lua.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		B36536811DE968E50063EB2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ERGRD4PXL4;
+				INFOPLIST_FILE = "watchos+lua/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottrules44.watchos-lua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B36536821DE968E50063EB2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ERGRD4PXL4;
+				INFOPLIST_FILE = "watchos+lua/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.scottrules44.watchos-lua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B365363D1DE968E40063EB2D /* Build configuration list for PBXProject "watchos+lua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36536761DE968E50063EB2D /* Debug */,
+				B36536771DE968E50063EB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36536781DE968E50063EB2D /* Build configuration list for PBXNativeTarget "watchos+lua WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36536791DE968E50063EB2D /* Debug */,
+				B365367A1DE968E50063EB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B365367C1DE968E50063EB2D /* Build configuration list for PBXNativeTarget "watchos+lua WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B365367D1DE968E50063EB2D /* Debug */,
+				B365367E1DE968E50063EB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B36536801DE968E50063EB2D /* Build configuration list for PBXNativeTarget "watchos+lua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36536811DE968E50063EB2D /* Debug */,
+				B36536821DE968E50063EB2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B365363A1DE968E40063EB2D /* Project object */;
+}
