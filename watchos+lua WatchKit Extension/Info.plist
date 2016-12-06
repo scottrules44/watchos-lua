@@ -30,6 +30,19 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.watchkit</string>
 	</dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+	    <dict>
+	        <key>timeapi.org</key>
+	        <dict>
+	            <key>NSIncludesSubdomains</key>
+	            <true/>
+	            <key>NSExceptionAllowsInsecureHTTPLoads</key>
+	            <true/>
+	        </dict>
+	    </dict>
+	</dict>
 	<key>WKExtensionDelegateClassName</key>
 	<string>ExtensionDelegate</string>
 </dict>

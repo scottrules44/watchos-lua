@@ -1,0 +1,1811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A447B610165D72FB009EA762 /* AppCoronaDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = A447B60F165D72FB009EA762 /* AppCoronaDelegate.mm */; };
+		A447B6671666FD02009EA762 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A447B6641666FD02009EA762 /* MainWindow-iPad.xib */; };
+		A447B6681666FD02009EA762 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A447B6651666FD02009EA762 /* MainWindow.xib */; };
+		A447B66A1666FD43009EA762 /* CoronaSDK3rdPartyLicenses.txt in Resources */ = {isa = PBXBuildFile; fileRef = A447B6691666FD43009EA762 /* CoronaSDK3rdPartyLicenses.txt */; };
+		A447B67C16675195009EA762 /* libplayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A447B67116670028009EA762 /* libplayer.a */; };
+		A46885F218068C2200381941 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484112315114F700074BD57 /* GLKit.framework */; };
+		A46885F418068C2900381941 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46885F318068C2900381941 /* CoreVideo.framework */; };
+		A484111E15114F700074BD57 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484111D15114F700074BD57 /* UIKit.framework */; };
+		A484112015114F700074BD57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484111F15114F700074BD57 /* Foundation.framework */; };
+		A484112215114F700074BD57 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484112115114F700074BD57 /* CoreGraphics.framework */; };
+		A484112615114F700074BD57 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484112515114F700074BD57 /* OpenGLES.framework */; };
+		A484112C15114F700074BD57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A484112A15114F700074BD57 /* InfoPlist.strings */; };
+		A484112E15114F700074BD57 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = A484112D15114F700074BD57 /* main.mm */; };
+		A484117715128D5D0074BD57 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116315128D5C0074BD57 /* AddressBook.framework */; };
+		A484117815128D5D0074BD57 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116415128D5C0074BD57 /* AddressBookUI.framework */; };
+		A484117915128D5D0074BD57 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116515128D5C0074BD57 /* AudioToolbox.framework */; };
+		A484117A15128D5D0074BD57 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116615128D5C0074BD57 /* AVFoundation.framework */; };
+		A484117B15128D5D0074BD57 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116715128D5C0074BD57 /* CFNetwork.framework */; };
+		A484117C15128D5D0074BD57 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116815128D5C0074BD57 /* CoreLocation.framework */; };
+		A484117D15128D5D0074BD57 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116915128D5C0074BD57 /* CoreMedia.framework */; };
+		A484117E15128D5D0074BD57 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116A15128D5C0074BD57 /* CoreMotion.framework */; };
+		A484117F15128D5D0074BD57 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116B15128D5D0074BD57 /* GameKit.framework */; };
+		A484118015128D5D0074BD57 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116C15128D5D0074BD57 /* ImageIO.framework */; };
+		A484118115128D5D0074BD57 /* libobjc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116D15128D5D0074BD57 /* libobjc.dylib */; };
+		A484118215128D5D0074BD57 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116E15128D5D0074BD57 /* MapKit.framework */; };
+		A484118315128D5D0074BD57 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484116F15128D5D0074BD57 /* MediaPlayer.framework */; };
+		A484118415128D5D0074BD57 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484117015128D5D0074BD57 /* MessageUI.framework */; };
+		A484118515128D5D0074BD57 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484117115128D5D0074BD57 /* MobileCoreServices.framework */; };
+		A484118615128D5D0074BD57 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484117215128D5D0074BD57 /* OpenAL.framework */; };
+		A484118715128D5D0074BD57 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484117315128D5D0074BD57 /* QuartzCore.framework */; };
+		A484118815128D5D0074BD57 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484117415128D5D0074BD57 /* Security.framework */; };
+		A484118915128D5D0074BD57 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484117515128D5D0074BD57 /* StoreKit.framework */; };
+		A484118A15128D5D0074BD57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A484117615128D5D0074BD57 /* SystemConfiguration.framework */; };
+		A48411CA15129F610074BD57 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A48411C915129F610074BD57 /* libsqlite3.dylib */; };
+		A498B81A16D70EFC0091A148 /* CoronaResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A498B81916D70EFC0091A148 /* CoronaResources.bundle */; };
+		A4C2449A1683FA5300C395D1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C244971683FA5300C395D1 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A4C2449C1683FA5300C395D1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C244991683FA5300C395D1 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A4E2537F166AE3DC00DCDC2C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E2537E166AE3DC00DCDC2C /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A4E253E5166DE7E000DCDC2C /* libplugin_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E253E2166DE7C800DCDC2C /* libplugin_library.a */; };
+		B321B0E71DF67E3700E87438 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B321B0E51DF67E3700E87438 /* Interface.storyboard */; };
+		B321B0E91DF67E3700E87438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B321B0E81DF67E3700E87438 /* Assets.xcassets */; };
+		B321B0F01DF67E3700E87438 /* Corona Watch+Lua Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B321B0EF1DF67E3700E87438 /* Corona Watch+Lua Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B321B0F61DF67E3700E87438 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B0F51DF67E3700E87438 /* InterfaceController.m */; };
+		B321B0F91DF67E3700E87438 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B0F81DF67E3700E87438 /* ExtensionDelegate.m */; };
+		B321B0FB1DF67E3700E87438 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B321B0FA1DF67E3700E87438 /* Assets.xcassets */; };
+		B321B0FF1DF67E3700E87438 /* Corona Watch+Lua.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B321B0E31DF67E3700E87438 /* Corona Watch+Lua.app */; };
+		B321B6621DF67F4900E87438 /* wax_config.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B1371DF67F4500E87438 /* wax_config.m */; };
+		B321B6631DF67F4900E87438 /* wax_lock.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B1391DF67F4500E87438 /* wax_lock.m */; };
+		B321B6641DF67F4900E87438 /* compile-stdlib.sh in Resources */ = {isa = PBXBuildFile; fileRef = B321B13B1DF67F4500E87438 /* compile-stdlib.sh */; };
+		B321B6651DF67F4900E87438 /* compile-stdlib32&64.sh in Resources */ = {isa = PBXBuildFile; fileRef = B321B13C1DF67F4500E87438 /* compile-stdlib32&64.sh */; };
+		B321B6661DF67F4900E87438 /* copy-scripts.sh in Resources */ = {isa = PBXBuildFile; fileRef = B321B13D1DF67F4500E87438 /* copy-scripts.sh */; };
+		B321B6671DF67F4900E87438 /* copy-scripts32.sh in Resources */ = {isa = PBXBuildFile; fileRef = B321B13E1DF67F4500E87438 /* copy-scripts32.sh */; };
+		B321B6681DF67F4900E87438 /* copy-scripts64.sh in Resources */ = {isa = PBXBuildFile; fileRef = B321B13F1DF67F4500E87438 /* copy-scripts64.sh */; };
+		B321B6691DF67F4900E87438 /* lua32 in Resources */ = {isa = PBXBuildFile; fileRef = B321B1401DF67F4500E87438 /* lua32 */; };
+		B321B66A1DF67F4900E87438 /* lua64 in Resources */ = {isa = PBXBuildFile; fileRef = B321B1411DF67F4500E87438 /* lua64 */; };
+		B321B66B1DF67F4900E87438 /* luac.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B1421DF67F4500E87438 /* luac.lua */; };
+		B321B66C1DF67F4900E87438 /* luac32 in Resources */ = {isa = PBXBuildFile; fileRef = B321B1431DF67F4500E87438 /* luac32 */; };
+		B321B66D1DF67F4900E87438 /* luac32.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B1441DF67F4500E87438 /* luac32.lua */; };
+		B321B66E1DF67F4900E87438 /* luac64 in Resources */ = {isa = PBXBuildFile; fileRef = B321B1451DF67F4500E87438 /* luac64 */; };
+		B321B66F1DF67F4900E87438 /* luac64.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B1461DF67F4500E87438 /* luac64.lua */; };
+		B321B9E31DF67F4F00E87438 /* wax_block.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B55C1DF67F4800E87438 /* wax_block.m */; };
+		B321B9E41DF67F4F00E87438 /* wax_block_call.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B55E1DF67F4800E87438 /* wax_block_call.m */; };
+		B321B9E51DF67F4F00E87438 /* wax_block_call_pool.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5601DF67F4800E87438 /* wax_block_call_pool.m */; };
+		B321B9E61DF67F4F00E87438 /* wax_block_description.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5621DF67F4800E87438 /* wax_block_description.m */; };
+		B321B9E71DF67F4F00E87438 /* wax_block_transfer.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5641DF67F4800E87438 /* wax_block_transfer.m */; };
+		B321B9E81DF67F4F00E87438 /* wax_block_transfer_pool.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5661DF67F4800E87438 /* wax_block_transfer_pool.m */; };
+		B321B9E91DF67F4F00E87438 /* dispatch_lua.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B56A1DF67F4800E87438 /* dispatch_lua.m */; };
+		B321B9EA1DF67F4F00E87438 /* dispatch_lua.pkg in Resources */ = {isa = PBXBuildFile; fileRef = B321B56B1DF67F4800E87438 /* dispatch_lua.pkg */; };
+		B321B9EB1DF67F4F00E87438 /* objc_runtime_lua.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B56C1DF67F4800E87438 /* objc_runtime_lua.m */; };
+		B321B9EC1DF67F4F00E87438 /* objc_runtime_lua.pkg in Resources */ = {isa = PBXBuildFile; fileRef = B321B56D1DF67F4800E87438 /* objc_runtime_lua.pkg */; };
+		B321B9ED1DF67F4F00E87438 /* pthread.pkg in Resources */ = {isa = PBXBuildFile; fileRef = B321B56E1DF67F4800E87438 /* pthread.pkg */; };
+		B321B9EE1DF67F4F00E87438 /* pthread_lua.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B56F1DF67F4800E87438 /* pthread_lua.m */; };
+		B321B9EF1DF67F4F00E87438 /* UIKitFunction.pkg in Resources */ = {isa = PBXBuildFile; fileRef = B321B5701DF67F4800E87438 /* UIKitFunction.pkg */; };
+		B321B9F01DF67F4F00E87438 /* UIKitFunction_lua.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5711DF67F4800E87438 /* UIKitFunction_lua.m */; };
+		B321B9F11DF67F4F00E87438 /* tolua_event.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5731DF67F4800E87438 /* tolua_event.c */; };
+		B321B9F21DF67F4F00E87438 /* tolua_is.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5751DF67F4800E87438 /* tolua_is.c */; };
+		B321B9F31DF67F4F00E87438 /* tolua_map.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5761DF67F4800E87438 /* tolua_map.c */; };
+		B321B9F41DF67F4F00E87438 /* tolua_push.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5771DF67F4800E87438 /* tolua_push.c */; };
+		B321B9F51DF67F4F00E87438 /* tolua_to.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5781DF67F4800E87438 /* tolua_to.c */; };
+		B321B9F61DF67F4F00E87438 /* wax_capi.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B57A1DF67F4800E87438 /* wax_capi.m */; };
+		B321B9F71DF67F4F00E87438 /* wax_CGTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B57D1DF67F4800E87438 /* wax_CGTransform.m */; };
+		B321B9F81DF67F4F00E87438 /* wax_CGContext.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5801DF67F4800E87438 /* wax_CGContext.m */; };
+		B321B9F91DF67F5000E87438 /* wax_filesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5831DF67F4800E87438 /* wax_filesystem.m */; };
+		B321B9FC1DF67F5000E87438 /* NSObject+TBIvarAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B58B1DF67F4800E87438 /* NSObject+TBIvarAccess.m */; };
+		B321B9FD1DF67F5000E87438 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = B321B58D1DF67F4800E87438 /* Rakefile */; };
+		B321B9FE1DF67F5000E87438 /* wax_json.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B58E1DF67F4800E87438 /* wax_json.c */; };
+		B321B9FF1DF67F5000E87438 /* yajl.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5951DF67F4800E87438 /* yajl.c */; };
+		B321BA001DF67F5000E87438 /* yajl_alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5961DF67F4800E87438 /* yajl_alloc.c */; };
+		B321BA011DF67F5000E87438 /* yajl_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5981DF67F4800E87438 /* yajl_buf.c */; };
+		B321BA021DF67F5000E87438 /* yajl_encode.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B59B1DF67F4800E87438 /* yajl_encode.c */; };
+		B321BA031DF67F5000E87438 /* yajl_gen.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B59D1DF67F4800E87438 /* yajl_gen.c */; };
+		B321BA041DF67F5000E87438 /* yajl_lex.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B59E1DF67F4800E87438 /* yajl_lex.c */; };
+		B321BA051DF67F5000E87438 /* yajl_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5A01DF67F4800E87438 /* yajl_parser.c */; };
+		B321BA061DF67F5000E87438 /* yajl-1.0.9.tar.gz in Resources */ = {isa = PBXBuildFile; fileRef = B321B5A21DF67F4800E87438 /* yajl-1.0.9.tar.gz */; };
+		B321BA071DF67F5000E87438 /* wax_memory.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5A51DF67F4800E87438 /* wax_memory.m */; };
+		B321BA081DF67F5000E87438 /* wax_sqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5A81DF67F4800E87438 /* wax_sqlite.m */; };
+		B321BA091DF67F5000E87438 /* wax_sqlite_operation.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5AA1DF67F4800E87438 /* wax_sqlite_operation.m */; };
+		B321BA0A1DF67F5000E87438 /* wax_xml.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B5AD1DF67F4800E87438 /* wax_xml.m */; };
+		B321BA0B1DF67F5000E87438 /* json.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B5AE1DF67F4800E87438 /* json.lua */; };
+		B321BA0C1DF67F5000E87438 /* lapi.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5B01DF67F4800E87438 /* lapi.c */; };
+		B321BA0D1DF67F5000E87438 /* lauxlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5B21DF67F4800E87438 /* lauxlib.c */; };
+		B321BA0E1DF67F5000E87438 /* lbaselib.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5B41DF67F4800E87438 /* lbaselib.c */; };
+		B321BA0F1DF67F5000E87438 /* lcode.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5B51DF67F4800E87438 /* lcode.c */; };
+		B321BA101DF67F5000E87438 /* ldblib.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5B71DF67F4800E87438 /* ldblib.c */; };
+		B321BA111DF67F5000E87438 /* ldebug.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5B81DF67F4800E87438 /* ldebug.c */; };
+		B321BA121DF67F5000E87438 /* ldo.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5BA1DF67F4800E87438 /* ldo.c */; };
+		B321BA131DF67F5000E87438 /* ldump.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5BC1DF67F4800E87438 /* ldump.c */; };
+		B321BA141DF67F5000E87438 /* lfunc.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5BD1DF67F4800E87438 /* lfunc.c */; };
+		B321BA151DF67F5000E87438 /* lgc.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5BF1DF67F4800E87438 /* lgc.c */; };
+		B321BA161DF67F5000E87438 /* linit.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5C11DF67F4800E87438 /* linit.c */; };
+		B321BA171DF67F5000E87438 /* liolib.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5C21DF67F4800E87438 /* liolib.c */; };
+		B321BA181DF67F5000E87438 /* llex.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5C31DF67F4800E87438 /* llex.c */; };
+		B321BA191DF67F5000E87438 /* lmathlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5C61DF67F4800E87438 /* lmathlib.c */; };
+		B321BA1A1DF67F5000E87438 /* lmem.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5C71DF67F4800E87438 /* lmem.c */; };
+		B321BA1B1DF67F5000E87438 /* loadlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5C91DF67F4800E87438 /* loadlib.c */; };
+		B321BA1C1DF67F5000E87438 /* lobject.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5CA1DF67F4800E87438 /* lobject.c */; };
+		B321BA1D1DF67F5000E87438 /* lopcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5CC1DF67F4800E87438 /* lopcodes.c */; };
+		B321BA1E1DF67F5000E87438 /* loslib.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5CE1DF67F4800E87438 /* loslib.c */; };
+		B321BA1F1DF67F5000E87438 /* lparser.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5CF1DF67F4800E87438 /* lparser.c */; };
+		B321BA201DF67F5000E87438 /* lstate.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5D11DF67F4800E87438 /* lstate.c */; };
+		B321BA211DF67F5000E87438 /* lstring.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5D31DF67F4800E87438 /* lstring.c */; };
+		B321BA221DF67F5000E87438 /* lstrlib.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5D51DF67F4800E87438 /* lstrlib.c */; };
+		B321BA231DF67F5000E87438 /* ltable.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5D61DF67F4800E87438 /* ltable.c */; };
+		B321BA241DF67F5000E87438 /* ltablib.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5D81DF67F4800E87438 /* ltablib.c */; };
+		B321BA251DF67F5000E87438 /* ltm.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5D91DF67F4800E87438 /* ltm.c */; };
+		B321BA261DF67F5000E87438 /* lundump.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5DE1DF67F4800E87438 /* lundump.c */; };
+		B321BA271DF67F5000E87438 /* lvm.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5E01DF67F4800E87438 /* lvm.c */; };
+		B321BA281DF67F5000E87438 /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5E21DF67F4800E87438 /* lzio.c */; };
+		B321BA291DF67F5000E87438 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = B321B5E41DF67F4800E87438 /* print.c */; };
+		B321BA2B1DF67F5000E87438 /* project.rake in Resources */ = {isa = PBXBuildFile; fileRef = B321B6311DF67F4900E87438 /* project.rake */; };
+		B321BA2C1DF67F5000E87438 /* enums.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6341DF67F4900E87438 /* enums.lua */; };
+		B321BA2D1DF67F5000E87438 /* block.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6361DF67F4900E87438 /* block.lua */; };
+		B321BA2E1DF67F5000E87438 /* http.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6371DF67F4900E87438 /* http.lua */; };
+		B321BA2F1DF67F5000E87438 /* init.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6381DF67F4900E87438 /* init.lua */; };
+		B321BA301DF67F5100E87438 /* number.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6391DF67F4900E87438 /* number.lua */; };
+		B321BA311DF67F5100E87438 /* string.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B63A1DF67F4900E87438 /* string.lua */; };
+		B321BA321DF67F5100E87438 /* table.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B63B1DF67F4900E87438 /* table.lua */; };
+		B321BA331DF67F5100E87438 /* autoload.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B63D1DF67F4900E87438 /* autoload.lua */; };
+		B321BA341DF67F5100E87438 /* base64.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B63E1DF67F4900E87438 /* base64.lua */; };
+		B321BA351DF67F5100E87438 /* bit.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B63F1DF67F4900E87438 /* bit.lua */; };
+		B321BA361DF67F5100E87438 /* cache.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6401DF67F4900E87438 /* cache.lua */; };
+		B321BA371DF67F5100E87438 /* callback.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6411DF67F4900E87438 /* callback.lua */; };
+		B321BA381DF67F5100E87438 /* frame.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6421DF67F4900E87438 /* frame.lua */; };
+		B321BA391DF67F5100E87438 /* init.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6431DF67F4900E87438 /* init.lua */; };
+		B321BA3A1DF67F5100E87438 /* pickView.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6441DF67F4900E87438 /* pickView.lua */; };
+		B321BA3B1DF67F5100E87438 /* time.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6451DF67F4900E87438 /* time.lua */; };
+		B321BA3C1DF67F5100E87438 /* WaxServer.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6461DF67F4900E87438 /* WaxServer.lua */; };
+		B321BA3D1DF67F5100E87438 /* init.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6471DF67F4900E87438 /* init.lua */; };
+		B321BA3E1DF67F5100E87438 /* init.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B6491DF67F4900E87438 /* init.lua */; };
+		B321BA3F1DF67F5100E87438 /* luamock.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B64A1DF67F4900E87438 /* luamock.lua */; };
+		B321BA401DF67F5100E87438 /* luaspec.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B64B1DF67F4900E87438 /* luaspec.lua */; };
+		B321BA411DF67F5100E87438 /* repl.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B64C1DF67F4900E87438 /* repl.lua */; };
+		B321BA421DF67F5100E87438 /* structs.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B64D1DF67F4900E87438 /* structs.lua */; };
+		B321BA431DF67F5100E87438 /* waxClass.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321B64E1DF67F4900E87438 /* waxClass.lua */; };
+		B321BA441DF67F5100E87438 /* wax_class.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B6501DF67F4900E87438 /* wax_class.m */; };
+		B321BA451DF67F5100E87438 /* wax_gc.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B6531DF67F4900E87438 /* wax_gc.m */; };
+		B321BA461DF67F5100E87438 /* wax_helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B6551DF67F4900E87438 /* wax_helpers.m */; };
+		B321BA471DF67F5100E87438 /* wax_instance.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B6571DF67F4900E87438 /* wax_instance.m */; };
+		B321BA491DF67F5100E87438 /* wax_struct.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B65C1DF67F4900E87438 /* wax_struct.m */; };
+		B321BA4A1DF67F5100E87438 /* wax.m in Sources */ = {isa = PBXBuildFile; fileRef = B321B65E1DF67F4900E87438 /* wax.m */; };
+		B321BA521DF67F5D00E87438 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B321BA4D1DF67F5D00E87438 /* arrow.png */; };
+		B321BA531DF67F5D00E87438 /* launchDelegate.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321BA4E1DF67F5D00E87438 /* launchDelegate.lua */; };
+		B321BA541DF67F5D00E87438 /* main.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321BA4F1DF67F5D00E87438 /* main.lua */; };
+		B321BA551DF67F5D00E87438 /* objMaker.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321BA501DF67F5D00E87438 /* objMaker.lua */; };
+		B321BA561DF67F5D00E87438 /* scottLib.lua in Resources */ = {isa = PBXBuildFile; fileRef = B321BA511DF67F5D00E87438 /* scottLib.lua */; };
+		B321BA581DF680D300E87438 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA571DF680D300E87438 /* libxml2.tbd */; };
+		B321BA5A1DF6811000E87438 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA591DF6811000E87438 /* libsqlite3.tbd */; };
+		B321BA5C1DF6812000E87438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA5B1DF6812000E87438 /* Foundation.framework */; };
+		B321BA5F1DF683B700E87438 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B321BA5D1DF683B700E87438 /* arrow.png */; };
+		B321BA601DF683B700E87438 /* click.wav in Resources */ = {isa = PBXBuildFile; fileRef = B321BA5E1DF683B700E87438 /* click.wav */; };
+		B321BA621DF683D500E87438 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA611DF683D500E87438 /* CoreMotion.framework */; };
+		B321BA641DF683FD00E87438 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA631DF683FC00E87438 /* WatchKit.framework */; };
+		B321BA661DF6840B00E87438 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA651DF6840B00E87438 /* SceneKit.framework */; };
+		B321BA681DF6841100E87438 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA671DF6841100E87438 /* SpriteKit.framework */; };
+		B321BA6A1DF6841F00E87438 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA691DF6841F00E87438 /* ImageIO.framework */; };
+		B321BA6C1DF6843700E87438 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA6B1DF6843600E87438 /* CoreGraphics.framework */; };
+		B321BA6E1DF6844300E87438 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA6D1DF6844300E87438 /* AVFoundation.framework */; };
+		B321BA701DF6844E00E87438 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B321BA6F1DF6844E00E87438 /* UIKit.framework */; };
+		E640B2F21BFC00B00031FAE9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		E640B2F41BFC00BA0031FAE9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F31BFC00BA0031FAE9 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F5BB41531BC42ACF0033F6FA /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BB41521BC42ACF0033F6FA /* CoreText.framework */; };
+		F5E548091BE7FF0200091810 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E548081BE7FF0200091810 /* GameController.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4E253E1166DE7C800DCDC2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E253DA166DE7C800DCDC2C /* Plugin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A4E253B6166D6FB300DCDC2C;
+			remoteInfo = plugin_library;
+		};
+		A4E253E3166DE7D800DCDC2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4E253DA166DE7C800DCDC2C /* Plugin.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A4E253B5166D6FB300DCDC2C;
+			remoteInfo = plugin_library;
+		};
+		B321B0F11DF67E3700E87438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A484111015114F700074BD57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B321B0EE1DF67E3700E87438;
+			remoteInfo = "Corona Watch+Lua Extension";
+		};
+		B321B0FD1DF67E3700E87438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A484111015114F700074BD57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B321B0E21DF67E3700E87438;
+			remoteInfo = "Corona Watch+Lua";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B321B1051DF67E3700E87438 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B321B0F01DF67E3700E87438 /* Corona Watch+Lua Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B321B1071DF67E3700E87438 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B321B0FF1DF67E3700E87438 /* Corona Watch+Lua.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A447B60E165D72FB009EA762 /* AppCoronaDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoronaDelegate.h; sourceTree = SOURCE_ROOT; };
+		A447B60F165D72FB009EA762 /* AppCoronaDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppCoronaDelegate.mm; sourceTree = SOURCE_ROOT; };
+		A447B6641666FD02009EA762 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "CoronaEnterprise/Corona/ios/resource/MainWindow-iPad.xib"; sourceTree = SOURCE_ROOT; };
+		A447B6651666FD02009EA762 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = CoronaEnterprise/Corona/ios/resource/MainWindow.xib; sourceTree = SOURCE_ROOT; };
+		A447B6691666FD43009EA762 /* CoronaSDK3rdPartyLicenses.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CoronaSDK3rdPartyLicenses.txt; path = CoronaEnterprise/Corona/shared/resource/CoronaSDK3rdPartyLicenses.txt; sourceTree = SOURCE_ROOT; };
+		A447B67116670028009EA762 /* libplayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libplayer.a; path = CoronaEnterprise/Corona/ios/lib/libplayer.a; sourceTree = SOURCE_ROOT; };
+		A447B824166856F3009EA762 /* main.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = main.lua; path = ../Corona/main.lua; sourceTree = SOURCE_ROOT; };
+		A46885F318068C2900381941 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A484111915114F700074BD57 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A484111D15114F700074BD57 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A484111F15114F700074BD57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A484112115114F700074BD57 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A484112315114F700074BD57 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		A484112515114F700074BD57 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A484112915114F700074BD57 /* App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A484112B15114F700074BD57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A484112D15114F700074BD57 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = SOURCE_ROOT; };
+		A484112F15114F700074BD57 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = SOURCE_ROOT; };
+		A484116315128D5C0074BD57 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A484116415128D5C0074BD57 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		A484116515128D5C0074BD57 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A484116615128D5C0074BD57 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A484116715128D5C0074BD57 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A484116815128D5C0074BD57 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A484116915128D5C0074BD57 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A484116A15128D5C0074BD57 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A484116B15128D5D0074BD57 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		A484116C15128D5D0074BD57 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		A484116D15128D5D0074BD57 /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = usr/lib/libobjc.dylib; sourceTree = SDKROOT; };
+		A484116E15128D5D0074BD57 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A484116F15128D5D0074BD57 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A484117015128D5D0074BD57 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		A484117115128D5D0074BD57 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A484117215128D5D0074BD57 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		A484117315128D5D0074BD57 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A484117415128D5D0074BD57 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A484117515128D5D0074BD57 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A484117615128D5D0074BD57 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A48411C915129F610074BD57 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A498B81916D70EFC0091A148 /* CoronaResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = CoronaResources.bundle; path = CoronaEnterprise/Corona/ios/resource/CoronaResources.bundle; sourceTree = SOURCE_ROOT; };
+		A4C244971683FA5300C395D1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A4C244991683FA5300C395D1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A4E2537E166AE3DC00DCDC2C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		A4E253DA166DE7C800DCDC2C /* Plugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Plugin.xcodeproj; sourceTree = "<group>"; };
+		B321B0E31DF67E3700E87438 /* Corona Watch+Lua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Corona Watch+Lua.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B321B0E61DF67E3700E87438 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B321B0E81DF67E3700E87438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B321B0EA1DF67E3700E87438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B321B0EF1DF67E3700E87438 /* Corona Watch+Lua Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Corona Watch+Lua Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B321B0F41DF67E3700E87438 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		B321B0F51DF67E3700E87438 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		B321B0F71DF67E3700E87438 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		B321B0F81DF67E3700E87438 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		B321B0FA1DF67E3700E87438 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B321B0FC1DF67E3700E87438 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B321B1361DF67F4500E87438 /* wax_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_config.h; sourceTree = "<group>"; };
+		B321B1371DF67F4500E87438 /* wax_config.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_config.m; sourceTree = "<group>"; };
+		B321B1381DF67F4500E87438 /* wax_lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_lock.h; sourceTree = "<group>"; };
+		B321B1391DF67F4500E87438 /* wax_lock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_lock.m; sourceTree = "<group>"; };
+		B321B13B1DF67F4500E87438 /* compile-stdlib.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "compile-stdlib.sh"; sourceTree = "<group>"; };
+		B321B13C1DF67F4500E87438 /* compile-stdlib32&64.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "compile-stdlib32&64.sh"; sourceTree = "<group>"; };
+		B321B13D1DF67F4500E87438 /* copy-scripts.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "copy-scripts.sh"; sourceTree = "<group>"; };
+		B321B13E1DF67F4500E87438 /* copy-scripts32.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "copy-scripts32.sh"; sourceTree = "<group>"; };
+		B321B13F1DF67F4500E87438 /* copy-scripts64.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "copy-scripts64.sh"; sourceTree = "<group>"; };
+		B321B1401DF67F4500E87438 /* lua32 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lua32; sourceTree = "<group>"; };
+		B321B1411DF67F4500E87438 /* lua64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lua64; sourceTree = "<group>"; };
+		B321B1421DF67F4500E87438 /* luac.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luac.lua; sourceTree = "<group>"; };
+		B321B1431DF67F4500E87438 /* luac32 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = luac32; sourceTree = "<group>"; };
+		B321B1441DF67F4500E87438 /* luac32.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luac32.lua; sourceTree = "<group>"; };
+		B321B1451DF67F4500E87438 /* luac64 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = luac64; sourceTree = "<group>"; };
+		B321B1461DF67F4500E87438 /* luac64.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luac64.lua; sourceTree = "<group>"; };
+		B321B55B1DF67F4800E87438 /* wax_block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_block.h; sourceTree = "<group>"; };
+		B321B55C1DF67F4800E87438 /* wax_block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_block.m; sourceTree = "<group>"; };
+		B321B55D1DF67F4800E87438 /* wax_block_call.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_block_call.h; sourceTree = "<group>"; };
+		B321B55E1DF67F4800E87438 /* wax_block_call.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_block_call.m; sourceTree = "<group>"; };
+		B321B55F1DF67F4800E87438 /* wax_block_call_pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_block_call_pool.h; sourceTree = "<group>"; };
+		B321B5601DF67F4800E87438 /* wax_block_call_pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_block_call_pool.m; sourceTree = "<group>"; };
+		B321B5611DF67F4800E87438 /* wax_block_description.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_block_description.h; sourceTree = "<group>"; };
+		B321B5621DF67F4800E87438 /* wax_block_description.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_block_description.m; sourceTree = "<group>"; };
+		B321B5631DF67F4800E87438 /* wax_block_transfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_block_transfer.h; sourceTree = "<group>"; };
+		B321B5641DF67F4800E87438 /* wax_block_transfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_block_transfer.m; sourceTree = "<group>"; };
+		B321B5651DF67F4800E87438 /* wax_block_transfer_pool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_block_transfer_pool.h; sourceTree = "<group>"; };
+		B321B5661DF67F4800E87438 /* wax_block_transfer_pool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_block_transfer_pool.m; sourceTree = "<group>"; };
+		B321B56A1DF67F4800E87438 /* dispatch_lua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dispatch_lua.m; sourceTree = "<group>"; };
+		B321B56B1DF67F4800E87438 /* dispatch_lua.pkg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dispatch_lua.pkg; sourceTree = "<group>"; };
+		B321B56C1DF67F4800E87438 /* objc_runtime_lua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = objc_runtime_lua.m; sourceTree = "<group>"; };
+		B321B56D1DF67F4800E87438 /* objc_runtime_lua.pkg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objc_runtime_lua.pkg; sourceTree = "<group>"; };
+		B321B56E1DF67F4800E87438 /* pthread.pkg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pthread.pkg; sourceTree = "<group>"; };
+		B321B56F1DF67F4800E87438 /* pthread_lua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pthread_lua.m; sourceTree = "<group>"; };
+		B321B5701DF67F4800E87438 /* UIKitFunction.pkg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UIKitFunction.pkg; sourceTree = "<group>"; };
+		B321B5711DF67F4800E87438 /* UIKitFunction_lua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitFunction_lua.m; sourceTree = "<group>"; };
+		B321B5721DF67F4800E87438 /* tolua++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "tolua++.h"; sourceTree = "<group>"; };
+		B321B5731DF67F4800E87438 /* tolua_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_event.c; sourceTree = "<group>"; };
+		B321B5741DF67F4800E87438 /* tolua_event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tolua_event.h; sourceTree = "<group>"; };
+		B321B5751DF67F4800E87438 /* tolua_is.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_is.c; sourceTree = "<group>"; };
+		B321B5761DF67F4800E87438 /* tolua_map.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_map.c; sourceTree = "<group>"; };
+		B321B5771DF67F4800E87438 /* tolua_push.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_push.c; sourceTree = "<group>"; };
+		B321B5781DF67F4800E87438 /* tolua_to.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tolua_to.c; sourceTree = "<group>"; };
+		B321B5791DF67F4800E87438 /* wax_capi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_capi.h; sourceTree = "<group>"; };
+		B321B57A1DF67F4800E87438 /* wax_capi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_capi.m; sourceTree = "<group>"; };
+		B321B57C1DF67F4800E87438 /* wax_CGTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_CGTransform.h; sourceTree = "<group>"; };
+		B321B57D1DF67F4800E87438 /* wax_CGTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_CGTransform.m; sourceTree = "<group>"; };
+		B321B57F1DF67F4800E87438 /* wax_CGContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_CGContext.h; sourceTree = "<group>"; };
+		B321B5801DF67F4800E87438 /* wax_CGContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_CGContext.m; sourceTree = "<group>"; };
+		B321B5821DF67F4800E87438 /* wax_filesystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_filesystem.h; sourceTree = "<group>"; };
+		B321B5831DF67F4800E87438 /* wax_filesystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_filesystem.m; sourceTree = "<group>"; };
+		B321B58A1DF67F4800E87438 /* NSObject+TBIvarAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TBIvarAccess.h"; sourceTree = "<group>"; };
+		B321B58B1DF67F4800E87438 /* NSObject+TBIvarAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TBIvarAccess.m"; sourceTree = "<group>"; };
+		B321B58D1DF67F4800E87438 /* Rakefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rakefile; sourceTree = "<group>"; };
+		B321B58E1DF67F4800E87438 /* wax_json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wax_json.c; sourceTree = "<group>"; };
+		B321B58F1DF67F4800E87438 /* wax_json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_json.h; sourceTree = "<group>"; };
+		B321B5921DF67F4800E87438 /* yajl_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_common.h; sourceTree = "<group>"; };
+		B321B5931DF67F4800E87438 /* yajl_gen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_gen.h; sourceTree = "<group>"; };
+		B321B5941DF67F4800E87438 /* yajl_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parse.h; sourceTree = "<group>"; };
+		B321B5951DF67F4800E87438 /* yajl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl.c; sourceTree = "<group>"; };
+		B321B5961DF67F4800E87438 /* yajl_alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_alloc.c; sourceTree = "<group>"; };
+		B321B5971DF67F4800E87438 /* yajl_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_alloc.h; sourceTree = "<group>"; };
+		B321B5981DF67F4800E87438 /* yajl_buf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_buf.c; sourceTree = "<group>"; };
+		B321B5991DF67F4800E87438 /* yajl_buf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_buf.h; sourceTree = "<group>"; };
+		B321B59A1DF67F4800E87438 /* yajl_bytestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_bytestack.h; sourceTree = "<group>"; };
+		B321B59B1DF67F4800E87438 /* yajl_encode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_encode.c; sourceTree = "<group>"; };
+		B321B59C1DF67F4800E87438 /* yajl_encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_encode.h; sourceTree = "<group>"; };
+		B321B59D1DF67F4800E87438 /* yajl_gen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_gen.c; sourceTree = "<group>"; };
+		B321B59E1DF67F4800E87438 /* yajl_lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_lex.c; sourceTree = "<group>"; };
+		B321B59F1DF67F4800E87438 /* yajl_lex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_lex.h; sourceTree = "<group>"; };
+		B321B5A01DF67F4800E87438 /* yajl_parser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yajl_parser.c; sourceTree = "<group>"; };
+		B321B5A11DF67F4800E87438 /* yajl_parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yajl_parser.h; sourceTree = "<group>"; };
+		B321B5A21DF67F4800E87438 /* yajl-1.0.9.tar.gz */ = {isa = PBXFileReference; lastKnownFileType = archive.gzip; path = "yajl-1.0.9.tar.gz"; sourceTree = "<group>"; };
+		B321B5A41DF67F4800E87438 /* wax_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_memory.h; sourceTree = "<group>"; };
+		B321B5A51DF67F4800E87438 /* wax_memory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_memory.m; sourceTree = "<group>"; };
+		B321B5A71DF67F4800E87438 /* wax_sqlite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_sqlite.h; sourceTree = "<group>"; };
+		B321B5A81DF67F4800E87438 /* wax_sqlite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_sqlite.m; sourceTree = "<group>"; };
+		B321B5A91DF67F4800E87438 /* wax_sqlite_operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_sqlite_operation.h; sourceTree = "<group>"; };
+		B321B5AA1DF67F4800E87438 /* wax_sqlite_operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_sqlite_operation.m; sourceTree = "<group>"; };
+		B321B5AC1DF67F4800E87438 /* wax_xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wax_xml.h; sourceTree = "<group>"; };
+		B321B5AD1DF67F4800E87438 /* wax_xml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wax_xml.m; sourceTree = "<group>"; };
+		B321B5AE1DF67F4800E87438 /* json.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = json.lua; path = lua/json.lua; sourceTree = "<group>"; };
+		B321B5B01DF67F4800E87438 /* lapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lapi.c; sourceTree = "<group>"; };
+		B321B5B11DF67F4800E87438 /* lapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lapi.h; sourceTree = "<group>"; };
+		B321B5B21DF67F4800E87438 /* lauxlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lauxlib.c; sourceTree = "<group>"; };
+		B321B5B31DF67F4800E87438 /* lauxlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lauxlib.h; sourceTree = "<group>"; };
+		B321B5B41DF67F4800E87438 /* lbaselib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lbaselib.c; sourceTree = "<group>"; };
+		B321B5B51DF67F4800E87438 /* lcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lcode.c; sourceTree = "<group>"; };
+		B321B5B61DF67F4800E87438 /* lcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lcode.h; sourceTree = "<group>"; };
+		B321B5B71DF67F4800E87438 /* ldblib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldblib.c; sourceTree = "<group>"; };
+		B321B5B81DF67F4800E87438 /* ldebug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldebug.c; sourceTree = "<group>"; };
+		B321B5B91DF67F4800E87438 /* ldebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldebug.h; sourceTree = "<group>"; };
+		B321B5BA1DF67F4800E87438 /* ldo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldo.c; sourceTree = "<group>"; };
+		B321B5BB1DF67F4800E87438 /* ldo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ldo.h; sourceTree = "<group>"; };
+		B321B5BC1DF67F4800E87438 /* ldump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ldump.c; sourceTree = "<group>"; };
+		B321B5BD1DF67F4800E87438 /* lfunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lfunc.c; sourceTree = "<group>"; };
+		B321B5BE1DF67F4800E87438 /* lfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lfunc.h; sourceTree = "<group>"; };
+		B321B5BF1DF67F4800E87438 /* lgc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lgc.c; sourceTree = "<group>"; };
+		B321B5C01DF67F4800E87438 /* lgc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lgc.h; sourceTree = "<group>"; };
+		B321B5C11DF67F4800E87438 /* linit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = linit.c; sourceTree = "<group>"; };
+		B321B5C21DF67F4800E87438 /* liolib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = liolib.c; sourceTree = "<group>"; };
+		B321B5C31DF67F4800E87438 /* llex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = llex.c; sourceTree = "<group>"; };
+		B321B5C41DF67F4800E87438 /* llex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llex.h; sourceTree = "<group>"; };
+		B321B5C51DF67F4800E87438 /* llimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = llimits.h; sourceTree = "<group>"; };
+		B321B5C61DF67F4800E87438 /* lmathlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmathlib.c; sourceTree = "<group>"; };
+		B321B5C71DF67F4800E87438 /* lmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lmem.c; sourceTree = "<group>"; };
+		B321B5C81DF67F4800E87438 /* lmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lmem.h; sourceTree = "<group>"; };
+		B321B5C91DF67F4800E87438 /* loadlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loadlib.c; sourceTree = "<group>"; };
+		B321B5CA1DF67F4800E87438 /* lobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lobject.c; sourceTree = "<group>"; };
+		B321B5CB1DF67F4800E87438 /* lobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lobject.h; sourceTree = "<group>"; };
+		B321B5CC1DF67F4800E87438 /* lopcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lopcodes.c; sourceTree = "<group>"; };
+		B321B5CD1DF67F4800E87438 /* lopcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lopcodes.h; sourceTree = "<group>"; };
+		B321B5CE1DF67F4800E87438 /* loslib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = loslib.c; sourceTree = "<group>"; };
+		B321B5CF1DF67F4800E87438 /* lparser.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lparser.c; sourceTree = "<group>"; };
+		B321B5D01DF67F4800E87438 /* lparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lparser.h; sourceTree = "<group>"; };
+		B321B5D11DF67F4800E87438 /* lstate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstate.c; sourceTree = "<group>"; };
+		B321B5D21DF67F4800E87438 /* lstate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstate.h; sourceTree = "<group>"; };
+		B321B5D31DF67F4800E87438 /* lstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstring.c; sourceTree = "<group>"; };
+		B321B5D41DF67F4800E87438 /* lstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstring.h; sourceTree = "<group>"; };
+		B321B5D51DF67F4800E87438 /* lstrlib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lstrlib.c; sourceTree = "<group>"; };
+		B321B5D61DF67F4800E87438 /* ltable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltable.c; sourceTree = "<group>"; };
+		B321B5D71DF67F4800E87438 /* ltable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltable.h; sourceTree = "<group>"; };
+		B321B5D81DF67F4800E87438 /* ltablib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltablib.c; sourceTree = "<group>"; };
+		B321B5D91DF67F4800E87438 /* ltm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ltm.c; sourceTree = "<group>"; };
+		B321B5DA1DF67F4800E87438 /* ltm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ltm.h; sourceTree = "<group>"; };
+		B321B5DB1DF67F4800E87438 /* lua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua.h; sourceTree = "<group>"; };
+		B321B5DC1DF67F4800E87438 /* luaconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = luaconf.h; sourceTree = "<group>"; };
+		B321B5DD1DF67F4800E87438 /* lualib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lualib.h; sourceTree = "<group>"; };
+		B321B5DE1DF67F4800E87438 /* lundump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lundump.c; sourceTree = "<group>"; };
+		B321B5DF1DF67F4800E87438 /* lundump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lundump.h; sourceTree = "<group>"; };
+		B321B5E01DF67F4800E87438 /* lvm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lvm.c; sourceTree = "<group>"; };
+		B321B5E11DF67F4800E87438 /* lvm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lvm.h; sourceTree = "<group>"; };
+		B321B5E21DF67F4800E87438 /* lzio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lzio.c; sourceTree = "<group>"; };
+		B321B5E31DF67F4800E87438 /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
+		B321B5E41DF67F4800E87438 /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		B321B6311DF67F4900E87438 /* project.rake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = project.rake; path = lua/project.rake; sourceTree = "<group>"; };
+		B321B6321DF67F4900E87438 /* ProtocolLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProtocolLoader.h; path = lua/ProtocolLoader.h; sourceTree = "<group>"; };
+		B321B6341DF67F4900E87438 /* enums.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = enums.lua; sourceTree = "<group>"; };
+		B321B6361DF67F4900E87438 /* block.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = block.lua; sourceTree = "<group>"; };
+		B321B6371DF67F4900E87438 /* http.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = http.lua; sourceTree = "<group>"; };
+		B321B6381DF67F4900E87438 /* init.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = init.lua; sourceTree = "<group>"; };
+		B321B6391DF67F4900E87438 /* number.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = number.lua; sourceTree = "<group>"; };
+		B321B63A1DF67F4900E87438 /* string.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = string.lua; sourceTree = "<group>"; };
+		B321B63B1DF67F4900E87438 /* table.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = table.lua; sourceTree = "<group>"; };
+		B321B63D1DF67F4900E87438 /* autoload.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = autoload.lua; sourceTree = "<group>"; };
+		B321B63E1DF67F4900E87438 /* base64.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = base64.lua; sourceTree = "<group>"; };
+		B321B63F1DF67F4900E87438 /* bit.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bit.lua; sourceTree = "<group>"; };
+		B321B6401DF67F4900E87438 /* cache.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cache.lua; sourceTree = "<group>"; };
+		B321B6411DF67F4900E87438 /* callback.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = callback.lua; sourceTree = "<group>"; };
+		B321B6421DF67F4900E87438 /* frame.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frame.lua; sourceTree = "<group>"; };
+		B321B6431DF67F4900E87438 /* init.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = init.lua; sourceTree = "<group>"; };
+		B321B6441DF67F4900E87438 /* pickView.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pickView.lua; sourceTree = "<group>"; };
+		B321B6451DF67F4900E87438 /* time.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = time.lua; sourceTree = "<group>"; };
+		B321B6461DF67F4900E87438 /* WaxServer.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WaxServer.lua; sourceTree = "<group>"; };
+		B321B6471DF67F4900E87438 /* init.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = init.lua; sourceTree = "<group>"; };
+		B321B6491DF67F4900E87438 /* init.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = init.lua; sourceTree = "<group>"; };
+		B321B64A1DF67F4900E87438 /* luamock.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luamock.lua; sourceTree = "<group>"; };
+		B321B64B1DF67F4900E87438 /* luaspec.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = luaspec.lua; sourceTree = "<group>"; };
+		B321B64C1DF67F4900E87438 /* repl.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = repl.lua; sourceTree = "<group>"; };
+		B321B64D1DF67F4900E87438 /* structs.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = structs.lua; sourceTree = "<group>"; };
+		B321B64E1DF67F4900E87438 /* waxClass.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = waxClass.lua; sourceTree = "<group>"; };
+		B321B64F1DF67F4900E87438 /* wax_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wax_class.h; path = lua/wax_class.h; sourceTree = "<group>"; };
+		B321B6501DF67F4900E87438 /* wax_class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wax_class.m; path = lua/wax_class.m; sourceTree = "<group>"; };
+		B321B6511DF67F4900E87438 /* wax_define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wax_define.h; path = lua/wax_define.h; sourceTree = "<group>"; };
+		B321B6521DF67F4900E87438 /* wax_gc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wax_gc.h; path = lua/wax_gc.h; sourceTree = "<group>"; };
+		B321B6531DF67F4900E87438 /* wax_gc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wax_gc.m; path = lua/wax_gc.m; sourceTree = "<group>"; };
+		B321B6541DF67F4900E87438 /* wax_helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wax_helpers.h; path = lua/wax_helpers.h; sourceTree = "<group>"; };
+		B321B6551DF67F4900E87438 /* wax_helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wax_helpers.m; path = lua/wax_helpers.m; sourceTree = "<group>"; };
+		B321B6561DF67F4900E87438 /* wax_instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wax_instance.h; path = lua/wax_instance.h; sourceTree = "<group>"; };
+		B321B6571DF67F4900E87438 /* wax_instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wax_instance.m; path = lua/wax_instance.m; sourceTree = "<group>"; };
+		B321B65A1DF67F4900E87438 /* wax_stdlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wax_stdlib.h; path = lua/wax_stdlib.h; sourceTree = "<group>"; };
+		B321B65B1DF67F4900E87438 /* wax_struct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wax_struct.h; path = lua/wax_struct.h; sourceTree = "<group>"; };
+		B321B65C1DF67F4900E87438 /* wax_struct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wax_struct.m; path = lua/wax_struct.m; sourceTree = "<group>"; };
+		B321B65D1DF67F4900E87438 /* wax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = wax.h; path = lua/wax.h; sourceTree = "<group>"; };
+		B321B65E1DF67F4900E87438 /* wax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = wax.m; path = lua/wax.m; sourceTree = "<group>"; };
+		B321BA4D1DF67F5D00E87438 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		B321BA4E1DF67F5D00E87438 /* launchDelegate.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = launchDelegate.lua; sourceTree = "<group>"; };
+		B321BA4F1DF67F5D00E87438 /* main.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.lua; sourceTree = "<group>"; };
+		B321BA501DF67F5D00E87438 /* objMaker.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objMaker.lua; sourceTree = "<group>"; };
+		B321BA511DF67F5D00E87438 /* scottLib.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = scottLib.lua; sourceTree = "<group>"; };
+		B321BA571DF680D300E87438 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
+		B321BA591DF6811000E87438 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		B321BA5B1DF6812000E87438 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B321BA5D1DF683B700E87438 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../../arrow.png; sourceTree = "<group>"; };
+		B321BA5E1DF683B700E87438 /* click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = click.wav; path = ../../../click.wav; sourceTree = "<group>"; };
+		B321BA611DF683D500E87438 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		B321BA631DF683FC00E87438 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/WatchKit.framework; sourceTree = DEVELOPER_DIR; };
+		B321BA651DF6840B00E87438 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
+		B321BA671DF6841100E87438 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		B321BA691DF6841F00E87438 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		B321BA6B1DF6843600E87438 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B321BA6D1DF6844300E87438 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		B321BA6F1DF6844E00E87438 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		E640B2F31BFC00BA0031FAE9 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		F5BB41521BC42ACF0033F6FA /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		F5E548081BE7FF0200091810 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A484111615114F700074BD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E640B2F41BFC00BA0031FAE9 /* Photos.framework in Frameworks */,
+				E640B2F21BFC00B00031FAE9 /* AssetsLibrary.framework in Frameworks */,
+				F5BB41531BC42ACF0033F6FA /* CoreText.framework in Frameworks */,
+				A46885F418068C2900381941 /* CoreVideo.framework in Frameworks */,
+				A46885F218068C2200381941 /* GLKit.framework in Frameworks */,
+				A4C2449A1683FA5300C395D1 /* Accounts.framework in Frameworks */,
+				A4C2449C1683FA5300C395D1 /* Social.framework in Frameworks */,
+				A484117715128D5D0074BD57 /* AddressBook.framework in Frameworks */,
+				A484117815128D5D0074BD57 /* AddressBookUI.framework in Frameworks */,
+				A484117915128D5D0074BD57 /* AudioToolbox.framework in Frameworks */,
+				A484117A15128D5D0074BD57 /* AVFoundation.framework in Frameworks */,
+				A484117B15128D5D0074BD57 /* CFNetwork.framework in Frameworks */,
+				A484112215114F700074BD57 /* CoreGraphics.framework in Frameworks */,
+				A484117C15128D5D0074BD57 /* CoreLocation.framework in Frameworks */,
+				A484117D15128D5D0074BD57 /* CoreMedia.framework in Frameworks */,
+				A484117E15128D5D0074BD57 /* CoreMotion.framework in Frameworks */,
+				A484112015114F700074BD57 /* Foundation.framework in Frameworks */,
+				A484117F15128D5D0074BD57 /* GameKit.framework in Frameworks */,
+				F5E548091BE7FF0200091810 /* GameController.framework in Frameworks */,
+				A484118015128D5D0074BD57 /* ImageIO.framework in Frameworks */,
+				A484118115128D5D0074BD57 /* libobjc.dylib in Frameworks */,
+				A48411CA15129F610074BD57 /* libsqlite3.dylib in Frameworks */,
+				A484118215128D5D0074BD57 /* MapKit.framework in Frameworks */,
+				A484118315128D5D0074BD57 /* MediaPlayer.framework in Frameworks */,
+				A484118415128D5D0074BD57 /* MessageUI.framework in Frameworks */,
+				A484118515128D5D0074BD57 /* MobileCoreServices.framework in Frameworks */,
+				A484118615128D5D0074BD57 /* OpenAL.framework in Frameworks */,
+				A484112615114F700074BD57 /* OpenGLES.framework in Frameworks */,
+				A484118715128D5D0074BD57 /* QuartzCore.framework in Frameworks */,
+				A484118815128D5D0074BD57 /* Security.framework in Frameworks */,
+				A484118915128D5D0074BD57 /* StoreKit.framework in Frameworks */,
+				A484118A15128D5D0074BD57 /* SystemConfiguration.framework in Frameworks */,
+				A4E2537F166AE3DC00DCDC2C /* Twitter.framework in Frameworks */,
+				A484111E15114F700074BD57 /* UIKit.framework in Frameworks */,
+				A447B67C16675195009EA762 /* libplayer.a in Frameworks */,
+				A4E253E5166DE7E000DCDC2C /* libplugin_library.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B321B0EC1DF67E3700E87438 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B321BA701DF6844E00E87438 /* UIKit.framework in Frameworks */,
+				B321BA6E1DF6844300E87438 /* AVFoundation.framework in Frameworks */,
+				B321BA6C1DF6843700E87438 /* CoreGraphics.framework in Frameworks */,
+				B321BA6A1DF6841F00E87438 /* ImageIO.framework in Frameworks */,
+				B321BA681DF6841100E87438 /* SpriteKit.framework in Frameworks */,
+				B321BA661DF6840B00E87438 /* SceneKit.framework in Frameworks */,
+				B321BA641DF683FD00E87438 /* WatchKit.framework in Frameworks */,
+				B321BA621DF683D500E87438 /* CoreMotion.framework in Frameworks */,
+				B321BA5C1DF6812000E87438 /* Foundation.framework in Frameworks */,
+				B321BA5A1DF6811000E87438 /* libsqlite3.tbd in Frameworks */,
+				B321BA581DF680D300E87438 /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A447B66F16670015009EA762 /* CoronaEnterprise */ = {
+			isa = PBXGroup;
+			children = (
+				A447B67716670C0D009EA762 /* lib */,
+				A4841153151161300074BD57 /* resource */,
+			);
+			name = CoronaEnterprise;
+			sourceTree = "<group>";
+		};
+		A447B67716670C0D009EA762 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A447B67116670028009EA762 /* libplayer.a */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		A447B823166856C7009EA762 /* Corona */ = {
+			isa = PBXGroup;
+			children = (
+				A447B824166856F3009EA762 /* main.lua */,
+			);
+			name = Corona;
+			path = CoronaSampleApp;
+			sourceTree = "<group>";
+		};
+		A484110E15114F700074BD57 = {
+			isa = PBXGroup;
+			children = (
+				A4E253DA166DE7C800DCDC2C /* Plugin.xcodeproj */,
+				A484112715114F700074BD57 /* App */,
+				A447B823166856C7009EA762 /* Corona */,
+				A447B66F16670015009EA762 /* CoronaEnterprise */,
+				B321B0E41DF67E3700E87438 /* Corona Watch+Lua */,
+				B321B0F31DF67E3700E87438 /* Corona Watch+Lua Extension */,
+				A484111C15114F700074BD57 /* Frameworks */,
+				A484111A15114F700074BD57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A484111A15114F700074BD57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A484111915114F700074BD57 /* App.app */,
+				B321B0E31DF67E3700E87438 /* Corona Watch+Lua.app */,
+				B321B0EF1DF67E3700E87438 /* Corona Watch+Lua Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A484111C15114F700074BD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B321BA6F1DF6844E00E87438 /* UIKit.framework */,
+				B321BA6D1DF6844300E87438 /* AVFoundation.framework */,
+				B321BA6B1DF6843600E87438 /* CoreGraphics.framework */,
+				B321BA691DF6841F00E87438 /* ImageIO.framework */,
+				B321BA671DF6841100E87438 /* SpriteKit.framework */,
+				B321BA651DF6840B00E87438 /* SceneKit.framework */,
+				B321BA631DF683FC00E87438 /* WatchKit.framework */,
+				B321BA611DF683D500E87438 /* CoreMotion.framework */,
+				B321BA5B1DF6812000E87438 /* Foundation.framework */,
+				B321BA591DF6811000E87438 /* libsqlite3.tbd */,
+				B321BA571DF680D300E87438 /* libxml2.tbd */,
+				E640B2F31BFC00BA0031FAE9 /* Photos.framework */,
+				E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */,
+				F5E548081BE7FF0200091810 /* GameController.framework */,
+				F5BB41521BC42ACF0033F6FA /* CoreText.framework */,
+				A46885F318068C2900381941 /* CoreVideo.framework */,
+				A4C244971683FA5300C395D1 /* Accounts.framework */,
+				A4C244991683FA5300C395D1 /* Social.framework */,
+				A484116315128D5C0074BD57 /* AddressBook.framework */,
+				A484116415128D5C0074BD57 /* AddressBookUI.framework */,
+				A484116515128D5C0074BD57 /* AudioToolbox.framework */,
+				A484116615128D5C0074BD57 /* AVFoundation.framework */,
+				A484116715128D5C0074BD57 /* CFNetwork.framework */,
+				A484112115114F700074BD57 /* CoreGraphics.framework */,
+				A484116815128D5C0074BD57 /* CoreLocation.framework */,
+				A484116915128D5C0074BD57 /* CoreMedia.framework */,
+				A484116A15128D5C0074BD57 /* CoreMotion.framework */,
+				A484111F15114F700074BD57 /* Foundation.framework */,
+				A484116B15128D5D0074BD57 /* GameKit.framework */,
+				A484112315114F700074BD57 /* GLKit.framework */,
+				A484116C15128D5D0074BD57 /* ImageIO.framework */,
+				A484116D15128D5D0074BD57 /* libobjc.dylib */,
+				A48411C915129F610074BD57 /* libsqlite3.dylib */,
+				A484116E15128D5D0074BD57 /* MapKit.framework */,
+				A484116F15128D5D0074BD57 /* MediaPlayer.framework */,
+				A484117015128D5D0074BD57 /* MessageUI.framework */,
+				A484117115128D5D0074BD57 /* MobileCoreServices.framework */,
+				A484117215128D5D0074BD57 /* OpenAL.framework */,
+				A484112515114F700074BD57 /* OpenGLES.framework */,
+				A484117315128D5D0074BD57 /* QuartzCore.framework */,
+				A484117415128D5D0074BD57 /* Security.framework */,
+				A484117515128D5D0074BD57 /* StoreKit.framework */,
+				A484117615128D5D0074BD57 /* SystemConfiguration.framework */,
+				A4E2537E166AE3DC00DCDC2C /* Twitter.framework */,
+				A484111D15114F700074BD57 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A484112715114F700074BD57 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A484112915114F700074BD57 /* App-Info.plist */,
+				A484112A15114F700074BD57 /* InfoPlist.strings */,
+				A484112D15114F700074BD57 /* main.mm */,
+				A484112F15114F700074BD57 /* Prefix.pch */,
+				A447B60E165D72FB009EA762 /* AppCoronaDelegate.h */,
+				A447B60F165D72FB009EA762 /* AppCoronaDelegate.mm */,
+			);
+			name = App;
+			path = CoronaSampleApp;
+			sourceTree = "<group>";
+		};
+		A4841153151161300074BD57 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A498B81916D70EFC0091A148 /* CoronaResources.bundle */,
+				A447B6691666FD43009EA762 /* CoronaSDK3rdPartyLicenses.txt */,
+				A447B6641666FD02009EA762 /* MainWindow-iPad.xib */,
+				A447B6651666FD02009EA762 /* MainWindow.xib */,
+			);
+			name = resource;
+			path = CoronaSampleApp;
+			sourceTree = "<group>";
+		};
+		A4E253DB166DE7C800DCDC2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4E253E2166DE7C800DCDC2C /* libplugin_library.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B321B0E41DF67E3700E87438 /* Corona Watch+Lua */ = {
+			isa = PBXGroup;
+			children = (
+				B321B0E51DF67E3700E87438 /* Interface.storyboard */,
+				B321B0E81DF67E3700E87438 /* Assets.xcassets */,
+				B321B0EA1DF67E3700E87438 /* Info.plist */,
+			);
+			path = "Corona Watch+Lua";
+			sourceTree = "<group>";
+		};
+		B321B0F31DF67E3700E87438 /* Corona Watch+Lua Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B321BA5D1DF683B700E87438 /* arrow.png */,
+				B321BA5E1DF683B700E87438 /* click.wav */,
+				B321BA4C1DF67F5D00E87438 /* project */,
+				B321B0F41DF67E3700E87438 /* InterfaceController.h */,
+				B321B0F51DF67E3700E87438 /* InterfaceController.m */,
+				B321B0F71DF67E3700E87438 /* ExtensionDelegate.h */,
+				B321B0F81DF67E3700E87438 /* ExtensionDelegate.m */,
+				B321B0FA1DF67E3700E87438 /* Assets.xcassets */,
+				B321B0FC1DF67E3700E87438 /* Info.plist */,
+				B321B1351DF67F4500E87438 /* adaptation */,
+				B321B13A1DF67F4500E87438 /* build-scripts */,
+				B321B5591DF67F4800E87438 /* extensions */,
+				B321B5AE1DF67F4800E87438 /* json.lua */,
+				B321B5AF1DF67F4800E87438 /* lua */,
+				B321B6311DF67F4900E87438 /* project.rake */,
+				B321B6321DF67F4900E87438 /* ProtocolLoader.h */,
+				B321B6331DF67F4900E87438 /* stdlib */,
+				B321B64F1DF67F4900E87438 /* wax_class.h */,
+				B321B6501DF67F4900E87438 /* wax_class.m */,
+				B321B6511DF67F4900E87438 /* wax_define.h */,
+				B321B6521DF67F4900E87438 /* wax_gc.h */,
+				B321B6531DF67F4900E87438 /* wax_gc.m */,
+				B321B6541DF67F4900E87438 /* wax_helpers.h */,
+				B321B6551DF67F4900E87438 /* wax_helpers.m */,
+				B321B6561DF67F4900E87438 /* wax_instance.h */,
+				B321B6571DF67F4900E87438 /* wax_instance.m */,
+				B321B65A1DF67F4900E87438 /* wax_stdlib.h */,
+				B321B65B1DF67F4900E87438 /* wax_struct.h */,
+				B321B65C1DF67F4900E87438 /* wax_struct.m */,
+				B321B65D1DF67F4900E87438 /* wax.h */,
+				B321B65E1DF67F4900E87438 /* wax.m */,
+			);
+			path = "Corona Watch+Lua Extension";
+			sourceTree = "<group>";
+		};
+		B321B1351DF67F4500E87438 /* adaptation */ = {
+			isa = PBXGroup;
+			children = (
+				B321B1361DF67F4500E87438 /* wax_config.h */,
+				B321B1371DF67F4500E87438 /* wax_config.m */,
+				B321B1381DF67F4500E87438 /* wax_lock.h */,
+				B321B1391DF67F4500E87438 /* wax_lock.m */,
+			);
+			name = adaptation;
+			path = lua/adaptation;
+			sourceTree = "<group>";
+		};
+		B321B13A1DF67F4500E87438 /* build-scripts */ = {
+			isa = PBXGroup;
+			children = (
+				B321B13B1DF67F4500E87438 /* compile-stdlib.sh */,
+				B321B13C1DF67F4500E87438 /* compile-stdlib32&64.sh */,
+				B321B13D1DF67F4500E87438 /* copy-scripts.sh */,
+				B321B13E1DF67F4500E87438 /* copy-scripts32.sh */,
+				B321B13F1DF67F4500E87438 /* copy-scripts64.sh */,
+				B321B1401DF67F4500E87438 /* lua32 */,
+				B321B1411DF67F4500E87438 /* lua64 */,
+				B321B1421DF67F4500E87438 /* luac.lua */,
+				B321B1431DF67F4500E87438 /* luac32 */,
+				B321B1441DF67F4500E87438 /* luac32.lua */,
+				B321B1451DF67F4500E87438 /* luac64 */,
+				B321B1461DF67F4500E87438 /* luac64.lua */,
+			);
+			name = "build-scripts";
+			path = "lua/build-scripts";
+			sourceTree = "<group>";
+		};
+		B321B5591DF67F4800E87438 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B321B55A1DF67F4800E87438 /* block */,
+				B321B5671DF67F4800E87438 /* capi */,
+				B321B57B1DF67F4800E87438 /* CGAffine */,
+				B321B57E1DF67F4800E87438 /* CGContext */,
+				B321B5811DF67F4800E87438 /* filesystem */,
+				B321B5891DF67F4800E87438 /* ivar */,
+				B321B58C1DF67F4800E87438 /* json */,
+				B321B5A31DF67F4800E87438 /* memory */,
+				B321B5A61DF67F4800E87438 /* SQLite */,
+				B321B5AB1DF67F4800E87438 /* xml */,
+			);
+			name = extensions;
+			path = lua/extensions;
+			sourceTree = "<group>";
+		};
+		B321B55A1DF67F4800E87438 /* block */ = {
+			isa = PBXGroup;
+			children = (
+				B321B55B1DF67F4800E87438 /* wax_block.h */,
+				B321B55C1DF67F4800E87438 /* wax_block.m */,
+				B321B55D1DF67F4800E87438 /* wax_block_call.h */,
+				B321B55E1DF67F4800E87438 /* wax_block_call.m */,
+				B321B55F1DF67F4800E87438 /* wax_block_call_pool.h */,
+				B321B5601DF67F4800E87438 /* wax_block_call_pool.m */,
+				B321B5611DF67F4800E87438 /* wax_block_description.h */,
+				B321B5621DF67F4800E87438 /* wax_block_description.m */,
+				B321B5631DF67F4800E87438 /* wax_block_transfer.h */,
+				B321B5641DF67F4800E87438 /* wax_block_transfer.m */,
+				B321B5651DF67F4800E87438 /* wax_block_transfer_pool.h */,
+				B321B5661DF67F4800E87438 /* wax_block_transfer_pool.m */,
+			);
+			path = block;
+			sourceTree = "<group>";
+		};
+		B321B5671DF67F4800E87438 /* capi */ = {
+			isa = PBXGroup;
+			children = (
+				B321B5681DF67F4800E87438 /* tolua++ */,
+				B321B5791DF67F4800E87438 /* wax_capi.h */,
+				B321B57A1DF67F4800E87438 /* wax_capi.m */,
+			);
+			path = capi;
+			sourceTree = "<group>";
+		};
+		B321B5681DF67F4800E87438 /* tolua++ */ = {
+			isa = PBXGroup;
+			children = (
+				B321B5691DF67F4800E87438 /* bind */,
+				B321B5721DF67F4800E87438 /* tolua++.h */,
+				B321B5731DF67F4800E87438 /* tolua_event.c */,
+				B321B5741DF67F4800E87438 /* tolua_event.h */,
+				B321B5751DF67F4800E87438 /* tolua_is.c */,
+				B321B5761DF67F4800E87438 /* tolua_map.c */,
+				B321B5771DF67F4800E87438 /* tolua_push.c */,
+				B321B5781DF67F4800E87438 /* tolua_to.c */,
+			);
+			path = "tolua++";
+			sourceTree = "<group>";
+		};
+		B321B5691DF67F4800E87438 /* bind */ = {
+			isa = PBXGroup;
+			children = (
+				B321B56A1DF67F4800E87438 /* dispatch_lua.m */,
+				B321B56B1DF67F4800E87438 /* dispatch_lua.pkg */,
+				B321B56C1DF67F4800E87438 /* objc_runtime_lua.m */,
+				B321B56D1DF67F4800E87438 /* objc_runtime_lua.pkg */,
+				B321B56E1DF67F4800E87438 /* pthread.pkg */,
+				B321B56F1DF67F4800E87438 /* pthread_lua.m */,
+				B321B5701DF67F4800E87438 /* UIKitFunction.pkg */,
+				B321B5711DF67F4800E87438 /* UIKitFunction_lua.m */,
+			);
+			path = bind;
+			sourceTree = "<group>";
+		};
+		B321B57B1DF67F4800E87438 /* CGAffine */ = {
+			isa = PBXGroup;
+			children = (
+				B321B57C1DF67F4800E87438 /* wax_CGTransform.h */,
+				B321B57D1DF67F4800E87438 /* wax_CGTransform.m */,
+			);
+			path = CGAffine;
+			sourceTree = "<group>";
+		};
+		B321B57E1DF67F4800E87438 /* CGContext */ = {
+			isa = PBXGroup;
+			children = (
+				B321B57F1DF67F4800E87438 /* wax_CGContext.h */,
+				B321B5801DF67F4800E87438 /* wax_CGContext.m */,
+			);
+			path = CGContext;
+			sourceTree = "<group>";
+		};
+		B321B5811DF67F4800E87438 /* filesystem */ = {
+			isa = PBXGroup;
+			children = (
+				B321B5821DF67F4800E87438 /* wax_filesystem.h */,
+				B321B5831DF67F4800E87438 /* wax_filesystem.m */,
+			);
+			path = filesystem;
+			sourceTree = "<group>";
+		};
+		B321B5891DF67F4800E87438 /* ivar */ = {
+			isa = PBXGroup;
+			children = (
+				B321B58A1DF67F4800E87438 /* NSObject+TBIvarAccess.h */,
+				B321B58B1DF67F4800E87438 /* NSObject+TBIvarAccess.m */,
+			);
+			path = ivar;
+			sourceTree = "<group>";
+		};
+		B321B58C1DF67F4800E87438 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				B321B58D1DF67F4800E87438 /* Rakefile */,
+				B321B58E1DF67F4800E87438 /* wax_json.c */,
+				B321B58F1DF67F4800E87438 /* wax_json.h */,
+				B321B5901DF67F4800E87438 /* yajl */,
+				B321B5A21DF67F4800E87438 /* yajl-1.0.9.tar.gz */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		B321B5901DF67F4800E87438 /* yajl */ = {
+			isa = PBXGroup;
+			children = (
+				B321B5911DF67F4800E87438 /* api */,
+				B321B5951DF67F4800E87438 /* yajl.c */,
+				B321B5961DF67F4800E87438 /* yajl_alloc.c */,
+				B321B5971DF67F4800E87438 /* yajl_alloc.h */,
+				B321B5981DF67F4800E87438 /* yajl_buf.c */,
+				B321B5991DF67F4800E87438 /* yajl_buf.h */,
+				B321B59A1DF67F4800E87438 /* yajl_bytestack.h */,
+				B321B59B1DF67F4800E87438 /* yajl_encode.c */,
+				B321B59C1DF67F4800E87438 /* yajl_encode.h */,
+				B321B59D1DF67F4800E87438 /* yajl_gen.c */,
+				B321B59E1DF67F4800E87438 /* yajl_lex.c */,
+				B321B59F1DF67F4800E87438 /* yajl_lex.h */,
+				B321B5A01DF67F4800E87438 /* yajl_parser.c */,
+				B321B5A11DF67F4800E87438 /* yajl_parser.h */,
+			);
+			path = yajl;
+			sourceTree = "<group>";
+		};
+		B321B5911DF67F4800E87438 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				B321B5921DF67F4800E87438 /* yajl_common.h */,
+				B321B5931DF67F4800E87438 /* yajl_gen.h */,
+				B321B5941DF67F4800E87438 /* yajl_parse.h */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		B321B5A31DF67F4800E87438 /* memory */ = {
+			isa = PBXGroup;
+			children = (
+				B321B5A41DF67F4800E87438 /* wax_memory.h */,
+				B321B5A51DF67F4800E87438 /* wax_memory.m */,
+			);
+			path = memory;
+			sourceTree = "<group>";
+		};
+		B321B5A61DF67F4800E87438 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				B321B5A71DF67F4800E87438 /* wax_sqlite.h */,
+				B321B5A81DF67F4800E87438 /* wax_sqlite.m */,
+				B321B5A91DF67F4800E87438 /* wax_sqlite_operation.h */,
+				B321B5AA1DF67F4800E87438 /* wax_sqlite_operation.m */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		B321B5AB1DF67F4800E87438 /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				B321B5AC1DF67F4800E87438 /* wax_xml.h */,
+				B321B5AD1DF67F4800E87438 /* wax_xml.m */,
+			);
+			path = xml;
+			sourceTree = "<group>";
+		};
+		B321B5AF1DF67F4800E87438 /* lua */ = {
+			isa = PBXGroup;
+			children = (
+				B321B5B01DF67F4800E87438 /* lapi.c */,
+				B321B5B11DF67F4800E87438 /* lapi.h */,
+				B321B5B21DF67F4800E87438 /* lauxlib.c */,
+				B321B5B31DF67F4800E87438 /* lauxlib.h */,
+				B321B5B41DF67F4800E87438 /* lbaselib.c */,
+				B321B5B51DF67F4800E87438 /* lcode.c */,
+				B321B5B61DF67F4800E87438 /* lcode.h */,
+				B321B5B71DF67F4800E87438 /* ldblib.c */,
+				B321B5B81DF67F4800E87438 /* ldebug.c */,
+				B321B5B91DF67F4800E87438 /* ldebug.h */,
+				B321B5BA1DF67F4800E87438 /* ldo.c */,
+				B321B5BB1DF67F4800E87438 /* ldo.h */,
+				B321B5BC1DF67F4800E87438 /* ldump.c */,
+				B321B5BD1DF67F4800E87438 /* lfunc.c */,
+				B321B5BE1DF67F4800E87438 /* lfunc.h */,
+				B321B5BF1DF67F4800E87438 /* lgc.c */,
+				B321B5C01DF67F4800E87438 /* lgc.h */,
+				B321B5C11DF67F4800E87438 /* linit.c */,
+				B321B5C21DF67F4800E87438 /* liolib.c */,
+				B321B5C31DF67F4800E87438 /* llex.c */,
+				B321B5C41DF67F4800E87438 /* llex.h */,
+				B321B5C51DF67F4800E87438 /* llimits.h */,
+				B321B5C61DF67F4800E87438 /* lmathlib.c */,
+				B321B5C71DF67F4800E87438 /* lmem.c */,
+				B321B5C81DF67F4800E87438 /* lmem.h */,
+				B321B5C91DF67F4800E87438 /* loadlib.c */,
+				B321B5CA1DF67F4800E87438 /* lobject.c */,
+				B321B5CB1DF67F4800E87438 /* lobject.h */,
+				B321B5CC1DF67F4800E87438 /* lopcodes.c */,
+				B321B5CD1DF67F4800E87438 /* lopcodes.h */,
+				B321B5CE1DF67F4800E87438 /* loslib.c */,
+				B321B5CF1DF67F4800E87438 /* lparser.c */,
+				B321B5D01DF67F4800E87438 /* lparser.h */,
+				B321B5D11DF67F4800E87438 /* lstate.c */,
+				B321B5D21DF67F4800E87438 /* lstate.h */,
+				B321B5D31DF67F4800E87438 /* lstring.c */,
+				B321B5D41DF67F4800E87438 /* lstring.h */,
+				B321B5D51DF67F4800E87438 /* lstrlib.c */,
+				B321B5D61DF67F4800E87438 /* ltable.c */,
+				B321B5D71DF67F4800E87438 /* ltable.h */,
+				B321B5D81DF67F4800E87438 /* ltablib.c */,
+				B321B5D91DF67F4800E87438 /* ltm.c */,
+				B321B5DA1DF67F4800E87438 /* ltm.h */,
+				B321B5DB1DF67F4800E87438 /* lua.h */,
+				B321B5DC1DF67F4800E87438 /* luaconf.h */,
+				B321B5DD1DF67F4800E87438 /* lualib.h */,
+				B321B5DE1DF67F4800E87438 /* lundump.c */,
+				B321B5DF1DF67F4800E87438 /* lundump.h */,
+				B321B5E01DF67F4800E87438 /* lvm.c */,
+				B321B5E11DF67F4800E87438 /* lvm.h */,
+				B321B5E21DF67F4800E87438 /* lzio.c */,
+				B321B5E31DF67F4800E87438 /* lzio.h */,
+				B321B5E41DF67F4800E87438 /* print.c */,
+			);
+			name = lua;
+			path = lua/lua;
+			sourceTree = "<group>";
+		};
+		B321B6331DF67F4900E87438 /* stdlib */ = {
+			isa = PBXGroup;
+			children = (
+				B321B6341DF67F4900E87438 /* enums.lua */,
+				B321B6351DF67F4900E87438 /* ext */,
+				B321B63C1DF67F4900E87438 /* helpers */,
+				B321B6471DF67F4900E87438 /* init.lua */,
+				B321B6481DF67F4900E87438 /* luaspec */,
+				B321B64C1DF67F4900E87438 /* repl.lua */,
+				B321B64D1DF67F4900E87438 /* structs.lua */,
+				B321B64E1DF67F4900E87438 /* waxClass.lua */,
+			);
+			name = stdlib;
+			path = lua/stdlib;
+			sourceTree = "<group>";
+		};
+		B321B6351DF67F4900E87438 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				B321B6361DF67F4900E87438 /* block.lua */,
+				B321B6371DF67F4900E87438 /* http.lua */,
+				B321B6381DF67F4900E87438 /* init.lua */,
+				B321B6391DF67F4900E87438 /* number.lua */,
+				B321B63A1DF67F4900E87438 /* string.lua */,
+				B321B63B1DF67F4900E87438 /* table.lua */,
+			);
+			path = ext;
+			sourceTree = "<group>";
+		};
+		B321B63C1DF67F4900E87438 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B321B63D1DF67F4900E87438 /* autoload.lua */,
+				B321B63E1DF67F4900E87438 /* base64.lua */,
+				B321B63F1DF67F4900E87438 /* bit.lua */,
+				B321B6401DF67F4900E87438 /* cache.lua */,
+				B321B6411DF67F4900E87438 /* callback.lua */,
+				B321B6421DF67F4900E87438 /* frame.lua */,
+				B321B6431DF67F4900E87438 /* init.lua */,
+				B321B6441DF67F4900E87438 /* pickView.lua */,
+				B321B6451DF67F4900E87438 /* time.lua */,
+				B321B6461DF67F4900E87438 /* WaxServer.lua */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		B321B6481DF67F4900E87438 /* luaspec */ = {
+			isa = PBXGroup;
+			children = (
+				B321B6491DF67F4900E87438 /* init.lua */,
+				B321B64A1DF67F4900E87438 /* luamock.lua */,
+				B321B64B1DF67F4900E87438 /* luaspec.lua */,
+			);
+			path = luaspec;
+			sourceTree = "<group>";
+		};
+		B321BA4C1DF67F5D00E87438 /* project */ = {
+			isa = PBXGroup;
+			children = (
+				B321BA4D1DF67F5D00E87438 /* arrow.png */,
+				B321BA4E1DF67F5D00E87438 /* launchDelegate.lua */,
+				B321BA4F1DF67F5D00E87438 /* main.lua */,
+				B321BA501DF67F5D00E87438 /* objMaker.lua */,
+				B321BA511DF67F5D00E87438 /* scottLib.lua */,
+			);
+			name = project;
+			path = ../../../project;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A484111815114F700074BD57 /* App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A484114215114F700074BD57 /* Build configuration list for PBXNativeTarget "App" */;
+			buildPhases = (
+				A484111715114F700074BD57 /* Resources */,
+				A484111515114F700074BD57 /* Sources */,
+				A484111615114F700074BD57 /* Frameworks */,
+				A4841162151268030074BD57 /* Compile */,
+				A484118B15128E320074BD57 /* build.settings to Info.plist */,
+				A484118F1512906B0074BD57 /* Certify */,
+				A484119015129A930074BD57 /* ShellScript */,
+				B321B1071DF67E3700E87438 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E253E4166DE7D800DCDC2C /* PBXTargetDependency */,
+				B321B0FE1DF67E3700E87438 /* PBXTargetDependency */,
+			);
+			name = App;
+			productName = CoronaSampleApp;
+			productReference = A484111915114F700074BD57 /* App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B321B0E21DF67E3700E87438 /* Corona Watch+Lua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B321B1061DF67E3700E87438 /* Build configuration list for PBXNativeTarget "Corona Watch+Lua" */;
+			buildPhases = (
+				B321B0E11DF67E3700E87438 /* Resources */,
+				B321B1051DF67E3700E87438 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B321B0F21DF67E3700E87438 /* PBXTargetDependency */,
+			);
+			name = "Corona Watch+Lua";
+			productName = "Corona Watch+Lua";
+			productReference = B321B0E31DF67E3700E87438 /* Corona Watch+Lua.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B321B0EE1DF67E3700E87438 /* Corona Watch+Lua Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B321B1041DF67E3700E87438 /* Build configuration list for PBXNativeTarget "Corona Watch+Lua Extension" */;
+			buildPhases = (
+				B321B0EB1DF67E3700E87438 /* Sources */,
+				B321B0EC1DF67E3700E87438 /* Frameworks */,
+				B321B0ED1DF67E3700E87438 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Corona Watch+Lua Extension";
+			productName = "Corona Watch+Lua Extension";
+			productReference = B321B0EF1DF67E3700E87438 /* Corona Watch+Lua Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A484111015114F700074BD57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					B321B0E21DF67E3700E87438 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					B321B0EE1DF67E3700E87438 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ERGRD4PXL4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A484111315114F700074BD57 /* Build configuration list for PBXProject "App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A484110E15114F700074BD57;
+			productRefGroup = A484111A15114F700074BD57 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A4E253DB166DE7C800DCDC2C /* Products */;
+					ProjectRef = A4E253DA166DE7C800DCDC2C /* Plugin.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A484111815114F700074BD57 /* App */,
+				B321B0E21DF67E3700E87438 /* Corona Watch+Lua */,
+				B321B0EE1DF67E3700E87438 /* Corona Watch+Lua Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A4E253E2166DE7C800DCDC2C /* libplugin_library.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libplugin_library.a;
+			remoteRef = A4E253E1166DE7C800DCDC2C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A484111715114F700074BD57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A484112C15114F700074BD57 /* InfoPlist.strings in Resources */,
+				A447B6671666FD02009EA762 /* MainWindow-iPad.xib in Resources */,
+				A447B6681666FD02009EA762 /* MainWindow.xib in Resources */,
+				A447B66A1666FD43009EA762 /* CoronaSDK3rdPartyLicenses.txt in Resources */,
+				A498B81A16D70EFC0091A148 /* CoronaResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B321B0E11DF67E3700E87438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B321B0E91DF67E3700E87438 /* Assets.xcassets in Resources */,
+				B321B0E71DF67E3700E87438 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B321B0ED1DF67E3700E87438 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B321B66C1DF67F4900E87438 /* luac32 in Resources */,
+				B321B6691DF67F4900E87438 /* lua32 in Resources */,
+				B321BA321DF67F5100E87438 /* table.lua in Resources */,
+				B321BA311DF67F5100E87438 /* string.lua in Resources */,
+				B321B9EC1DF67F4F00E87438 /* objc_runtime_lua.pkg in Resources */,
+				B321B66A1DF67F4900E87438 /* lua64 in Resources */,
+				B321BA3F1DF67F5100E87438 /* luamock.lua in Resources */,
+				B321BA2D1DF67F5000E87438 /* block.lua in Resources */,
+				B321BA3E1DF67F5100E87438 /* init.lua in Resources */,
+				B321BA2E1DF67F5000E87438 /* http.lua in Resources */,
+				B321BA5F1DF683B700E87438 /* arrow.png in Resources */,
+				B321B6671DF67F4900E87438 /* copy-scripts32.sh in Resources */,
+				B321BA381DF67F5100E87438 /* frame.lua in Resources */,
+				B321BA2C1DF67F5000E87438 /* enums.lua in Resources */,
+				B321B66D1DF67F4900E87438 /* luac32.lua in Resources */,
+				B321BA521DF67F5D00E87438 /* arrow.png in Resources */,
+				B321B9FD1DF67F5000E87438 /* Rakefile in Resources */,
+				B321B6661DF67F4900E87438 /* copy-scripts.sh in Resources */,
+				B321BA3B1DF67F5100E87438 /* time.lua in Resources */,
+				B321BA601DF683B700E87438 /* click.wav in Resources */,
+				B321BA2B1DF67F5000E87438 /* project.rake in Resources */,
+				B321B6641DF67F4900E87438 /* compile-stdlib.sh in Resources */,
+				B321BA431DF67F5100E87438 /* waxClass.lua in Resources */,
+				B321BA391DF67F5100E87438 /* init.lua in Resources */,
+				B321BA3A1DF67F5100E87438 /* pickView.lua in Resources */,
+				B321B66F1DF67F4900E87438 /* luac64.lua in Resources */,
+				B321BA361DF67F5100E87438 /* cache.lua in Resources */,
+				B321B9EF1DF67F4F00E87438 /* UIKitFunction.pkg in Resources */,
+				B321BA2F1DF67F5000E87438 /* init.lua in Resources */,
+				B321B0FB1DF67E3700E87438 /* Assets.xcassets in Resources */,
+				B321BA401DF67F5100E87438 /* luaspec.lua in Resources */,
+				B321BA421DF67F5100E87438 /* structs.lua in Resources */,
+				B321BA351DF67F5100E87438 /* bit.lua in Resources */,
+				B321B6681DF67F4900E87438 /* copy-scripts64.sh in Resources */,
+				B321BA3C1DF67F5100E87438 /* WaxServer.lua in Resources */,
+				B321BA301DF67F5100E87438 /* number.lua in Resources */,
+				B321B66E1DF67F4900E87438 /* luac64 in Resources */,
+				B321BA531DF67F5D00E87438 /* launchDelegate.lua in Resources */,
+				B321B66B1DF67F4900E87438 /* luac.lua in Resources */,
+				B321BA411DF67F5100E87438 /* repl.lua in Resources */,
+				B321B9ED1DF67F4F00E87438 /* pthread.pkg in Resources */,
+				B321BA331DF67F5100E87438 /* autoload.lua in Resources */,
+				B321BA3D1DF67F5100E87438 /* init.lua in Resources */,
+				B321BA551DF67F5D00E87438 /* objMaker.lua in Resources */,
+				B321BA061DF67F5000E87438 /* yajl-1.0.9.tar.gz in Resources */,
+				B321BA341DF67F5100E87438 /* base64.lua in Resources */,
+				B321BA371DF67F5100E87438 /* callback.lua in Resources */,
+				B321BA541DF67F5D00E87438 /* main.lua in Resources */,
+				B321B6651DF67F4900E87438 /* compile-stdlib32&64.sh in Resources */,
+				B321BA0B1DF67F5000E87438 /* json.lua in Resources */,
+				B321BA561DF67F5D00E87438 /* scottLib.lua in Resources */,
+				B321B9EA1DF67F4F00E87438 /* dispatch_lua.pkg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4841162151268030074BD57 /* Compile */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Compile;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "if [ ! -d \"$CORONA_ROOT\" ]\nthen\n\t# Assume symlink location\n\tCORONA_ROOT=$PROJECT_DIR/CoronaEnterprise\nfi\n\nif [ ! -d \"$CORONA_ROOT\" ]\nthen\n    echo \"Could not find Corona Enterprise directory\"\n    exit -1\nfi\n\n# -------------------------------------------------------------------\n\nexport TARGET_PLATFORM=ios\nCORONA_MAC_BIN=$CORONA_ROOT/Corona/mac/bin\nCORONA_SHARED_BIN=$CORONA_ROOT/Corona/shared/bin\nexport LUA_CPATH=\"$CORONA_MAC_BIN/?.so\"\n\"$CORONA_MAC_BIN\"/lua -e \"package.path='$CORONA_SHARED_BIN/?.lua;$CORONA_SHARED_BIN/?/init.lua;'..package.path\" \"$CORONA_SHARED_BIN\"/Compile.lua mac \"$CORONA_ROOT\"\nif [ $? -ne 0 ]\nthen\n    echo \"Exiting due to errors (above)\"\n    exit -1\nfi\n";
+		};
+		A484118B15128E320074BD57 /* build.settings to Info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "build.settings to Info.plist";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -d \"$CORONA_ROOT\" ]\nthen\n\t# Assume symlink location\n\tCORONA_ROOT=$PROJECT_DIR/CoronaEnterprise\nfi\n\nif [ ! -d \"$CORONA_ROOT\" ]\nthen\n    echo \"Could not find Corona Enterprise directory\"\n    exit -1\nfi\n\n# -------------------------------------------------------------------\n\n\"$CORONA_ROOT\"/Corona/mac/bin/CreateInfoPlist.sh\n\nif [ $? -ne 0 ]\nthen\n    echo \"Exiting due to errors (above)\"\n    exit -1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A484118F1512906B0074BD57 /* Certify */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Certify;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ ! -d \"$CORONA_ROOT\" ]\nthen\n\t# Assume symlink location\n\tCORONA_ROOT=$PROJECT_DIR/CoronaEnterprise\nfi\n\nif [ ! -d \"$CORONA_ROOT\" ]\nthen\n    echo \"Could not find Corona Enterprise directory\"\n    exit -1\nfi\n\n# -------------------------------------------------------------------\n\n\"$CORONA_ROOT\"/Corona/mac/bin/CertifyBuild.sh\n\nif [ $? -ne 0 ]\nthen\n    echo \"Exiting due to errors (above)\"\n    exit -1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A484119015129A930074BD57 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Ensures that next attempt to build actually rebuilds the executable so it can be (re)app_sign(ed)\necho \"Updating modification time of $PROJECT_DIR/main.mm to trigger relink of $BUILT_PRODUCTS_DIR/$EXECUTABLE_PATH\"\necho \"We need to do this b/c app_sign can only sign an unsigned executable.\"\ntouch \"$PROJECT_DIR/main.mm\"";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A484111515114F700074BD57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A484112E15114F700074BD57 /* main.mm in Sources */,
+				A447B610165D72FB009EA762 /* AppCoronaDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B321B0EB1DF67E3700E87438 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B321BA071DF67F5000E87438 /* wax_memory.m in Sources */,
+				B321BA261DF67F5000E87438 /* lundump.c in Sources */,
+				B321BA031DF67F5000E87438 /* yajl_gen.c in Sources */,
+				B321B9F31DF67F4F00E87438 /* tolua_map.c in Sources */,
+				B321B9F41DF67F4F00E87438 /* tolua_push.c in Sources */,
+				B321BA201DF67F5000E87438 /* lstate.c in Sources */,
+				B321BA151DF67F5000E87438 /* lgc.c in Sources */,
+				B321BA281DF67F5000E87438 /* lzio.c in Sources */,
+				B321BA101DF67F5000E87438 /* ldblib.c in Sources */,
+				B321B9E61DF67F4F00E87438 /* wax_block_description.m in Sources */,
+				B321BA021DF67F5000E87438 /* yajl_encode.c in Sources */,
+				B321B9F61DF67F4F00E87438 /* wax_capi.m in Sources */,
+				B321BA441DF67F5100E87438 /* wax_class.m in Sources */,
+				B321BA0D1DF67F5000E87438 /* lauxlib.c in Sources */,
+				B321BA191DF67F5000E87438 /* lmathlib.c in Sources */,
+				B321BA171DF67F5000E87438 /* liolib.c in Sources */,
+				B321BA471DF67F5100E87438 /* wax_instance.m in Sources */,
+				B321BA091DF67F5000E87438 /* wax_sqlite_operation.m in Sources */,
+				B321BA181DF67F5000E87438 /* llex.c in Sources */,
+				B321BA1C1DF67F5000E87438 /* lobject.c in Sources */,
+				B321B9E71DF67F4F00E87438 /* wax_block_transfer.m in Sources */,
+				B321BA221DF67F5000E87438 /* lstrlib.c in Sources */,
+				B321BA1D1DF67F5000E87438 /* lopcodes.c in Sources */,
+				B321BA001DF67F5000E87438 /* yajl_alloc.c in Sources */,
+				B321BA0C1DF67F5000E87438 /* lapi.c in Sources */,
+				B321BA291DF67F5000E87438 /* print.c in Sources */,
+				B321BA161DF67F5000E87438 /* linit.c in Sources */,
+				B321B9E51DF67F4F00E87438 /* wax_block_call_pool.m in Sources */,
+				B321B9E41DF67F4F00E87438 /* wax_block_call.m in Sources */,
+				B321BA041DF67F5000E87438 /* yajl_lex.c in Sources */,
+				B321BA141DF67F5000E87438 /* lfunc.c in Sources */,
+				B321BA1A1DF67F5000E87438 /* lmem.c in Sources */,
+				B321B9F81DF67F4F00E87438 /* wax_CGContext.m in Sources */,
+				B321BA271DF67F5000E87438 /* lvm.c in Sources */,
+				B321BA4A1DF67F5100E87438 /* wax.m in Sources */,
+				B321B9E31DF67F4F00E87438 /* wax_block.m in Sources */,
+				B321B9F51DF67F4F00E87438 /* tolua_to.c in Sources */,
+				B321B9EE1DF67F4F00E87438 /* pthread_lua.m in Sources */,
+				B321B9FF1DF67F5000E87438 /* yajl.c in Sources */,
+				B321BA121DF67F5000E87438 /* ldo.c in Sources */,
+				B321BA231DF67F5000E87438 /* ltable.c in Sources */,
+				B321B6621DF67F4900E87438 /* wax_config.m in Sources */,
+				B321BA0A1DF67F5000E87438 /* wax_xml.m in Sources */,
+				B321BA1B1DF67F5000E87438 /* loadlib.c in Sources */,
+				B321BA1F1DF67F5000E87438 /* lparser.c in Sources */,
+				B321B9F91DF67F5000E87438 /* wax_filesystem.m in Sources */,
+				B321BA491DF67F5100E87438 /* wax_struct.m in Sources */,
+				B321B9F21DF67F4F00E87438 /* tolua_is.c in Sources */,
+				B321B9E91DF67F4F00E87438 /* dispatch_lua.m in Sources */,
+				B321B9FC1DF67F5000E87438 /* NSObject+TBIvarAccess.m in Sources */,
+				B321B6631DF67F4900E87438 /* wax_lock.m in Sources */,
+				B321BA211DF67F5000E87438 /* lstring.c in Sources */,
+				B321BA0E1DF67F5000E87438 /* lbaselib.c in Sources */,
+				B321B9E81DF67F4F00E87438 /* wax_block_transfer_pool.m in Sources */,
+				B321B0F91DF67E3700E87438 /* ExtensionDelegate.m in Sources */,
+				B321BA081DF67F5000E87438 /* wax_sqlite.m in Sources */,
+				B321BA461DF67F5100E87438 /* wax_helpers.m in Sources */,
+				B321B0F61DF67E3700E87438 /* InterfaceController.m in Sources */,
+				B321BA051DF67F5000E87438 /* yajl_parser.c in Sources */,
+				B321BA451DF67F5100E87438 /* wax_gc.m in Sources */,
+				B321BA131DF67F5000E87438 /* ldump.c in Sources */,
+				B321B9F01DF67F4F00E87438 /* UIKitFunction_lua.m in Sources */,
+				B321BA251DF67F5000E87438 /* ltm.c in Sources */,
+				B321BA011DF67F5000E87438 /* yajl_buf.c in Sources */,
+				B321B9EB1DF67F4F00E87438 /* objc_runtime_lua.m in Sources */,
+				B321BA1E1DF67F5000E87438 /* loslib.c in Sources */,
+				B321BA241DF67F5000E87438 /* ltablib.c in Sources */,
+				B321B9FE1DF67F5000E87438 /* wax_json.c in Sources */,
+				B321B9F11DF67F4F00E87438 /* tolua_event.c in Sources */,
+				B321B9F71DF67F4F00E87438 /* wax_CGTransform.m in Sources */,
+				B321BA0F1DF67F5000E87438 /* lcode.c in Sources */,
+				B321BA111DF67F5000E87438 /* ldebug.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4E253E4166DE7D800DCDC2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = plugin_library;
+			targetProxy = A4E253E3166DE7D800DCDC2C /* PBXContainerItemProxy */;
+		};
+		B321B0F21DF67E3700E87438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B321B0EE1DF67E3700E87438 /* Corona Watch+Lua Extension */;
+			targetProxy = B321B0F11DF67E3700E87438 /* PBXContainerItemProxy */;
+		};
+		B321B0FE1DF67E3700E87438 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B321B0E21DF67E3700E87438 /* Corona Watch+Lua */;
+			targetProxy = B321B0FD1DF67E3700E87438 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A484112A15114F700074BD57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A484112B15114F700074BD57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = SOURCE_ROOT;
+		};
+		B321B0E51DF67E3700E87438 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B321B0E61DF67E3700E87438 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A484114015114F700074BD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+			};
+			name = Debug;
+		};
+		A484114115114F700074BD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A484114315114F700074BD57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CoronaEnterprise/Plugins/sdk-facebook/ios\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "App-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CoronaEnterprise/Corona/ios/lib\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A484114415114F700074BD57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CoronaEnterprise/Plugins/sdk-facebook/ios\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Prefix.pch;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "App-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/CoronaEnterprise/Corona/ios/lib\"",
+				);
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B321B1001DF67E3700E87438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IBSC_MODULE = Corona_Watch_Lua_Extension;
+				INFOPLIST_FILE = "Corona Watch+Lua/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.App.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		B321B1011DF67E3700E87438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				IBSC_MODULE = Corona_Watch_Lua_Extension;
+				INFOPLIST_FILE = "Corona Watch+Lua/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.App.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		B321B1021DF67E3700E87438 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = ERGRD4PXL4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = .;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = .;
+				INFOPLIST_FILE = "Corona Watch+Lua Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.App.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona ${SDK_DIR}/usr/include/libxml2 .";
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		B321B1031DF67E3700E87438 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = ERGRD4PXL4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = .;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = .;
+				INFOPLIST_FILE = "Corona Watch+Lua Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.App.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona ${SDK_DIR}/usr/include/libxml2 .";
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A484111315114F700074BD57 /* Build configuration list for PBXProject "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A484114015114F700074BD57 /* Debug */,
+				A484114115114F700074BD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A484114215114F700074BD57 /* Build configuration list for PBXNativeTarget "App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A484114315114F700074BD57 /* Debug */,
+				A484114415114F700074BD57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B321B1041DF67E3700E87438 /* Build configuration list for PBXNativeTarget "Corona Watch+Lua Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B321B1021DF67E3700E87438 /* Debug */,
+				B321B1031DF67E3700E87438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B321B1061DF67E3700E87438 /* Build configuration list for PBXNativeTarget "Corona Watch+Lua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B321B1001DF67E3700E87438 /* Debug */,
+				B321B1011DF67E3700E87438 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A484111015114F700074BD57 /* Project object */;
+}
