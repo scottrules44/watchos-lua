@@ -10,3 +10,8 @@ Change log
 
 ###.1 alpha
 first build :)
+
+
+##Credits
+Powered by wax
+https://github.com/alibaba/wax
